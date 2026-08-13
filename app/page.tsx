@@ -1,33 +1,10 @@
-import Link from "next/link";
-import { Header, Footer, Arrow, ProductVisual } from "./components";
-
-const products = [
-  ["01", "Patient Monitoring", "Modular vital-sign monitors for wards, transport and critical care."],
-  ["02", "Respiratory Care", "Reliable oxygen therapy and airway management for daily clinical use."],
-  ["03", "Surgical Solutions", "Precision instruments and consumables engineered for consistency."],
-];
-
-export default function Home() {
-  return <><Header />
-    <main>
-      <section className="hero shell">
-        <div className="hero-copy">
-          <p className="eyebrow"><span /> GLOBAL MEDTECH PARTNER</p>
-          <h1>Precision care.<br/><em>Delivered globally.</em></h1>
-          <p className="lead">We help healthcare providers and distributors access dependable medical devices—built with rigorous quality control and global market readiness.</p>
-          <div className="actions"><Link className="button primary" href="/products">Explore products <Arrow /></Link><Link className="text-link" href="/contact">Talk to our team <Arrow /></Link></div>
-          <div className="proof"><div><b>40+</b><span>Export markets</span></div><div><b>12 yrs</b><span>Manufacturing expertise</span></div><div><b>ISO 13485</b><span>Quality management</span></div></div>
-        </div>
-        <div className="hero-art" aria-label="Modern patient monitoring device illustration">
-          <div className="orbit orbit-a"/><div className="orbit orbit-b"/><div className="device"><div className="device-top"><span>AVEN</span><i/></div><div className="screen"><small>PATIENT 04</small><div className="wave">⌁⌁╲╱⌁⌁╲╱⌁</div><div className="readings"><b>72</b><b>98</b><b>120<small>/80</small></b></div></div><div className="controls"><i/><i/><i/><i/></div></div>
-          <div className="float-card"><span className="pulse">●</span><div><small>QUALITY STANDARD</small><b>ISO 13485 Certified</b></div></div>
-        </div>
-      </section>
-      <section className="trust"><div className="shell trust-inner"><span>QUALITY SYSTEMS & MARKET ACCESS</span><b>ISO<br/>13485</b><b>FDA<br/><small>REGISTERED</small></b><b>CE<br/><small>MARK</small></b><b>MDSAP</b></div></section>
-      <section className="section shell">
-        <div className="section-head"><div><p className="eyebrow"><span/> WHAT WE MAKE</p><h2>Designed around<br/>clinical reality.</h2></div><p>From the ward to the operating room, our portfolio is developed with healthcare professionals in mind.</p></div>
-        <div className="product-grid">{products.map((p,i)=><Link href="/products" className="product-card" key={p[0]}><div className="product-image"><span className="num">{p[0]}</span><ProductVisual type={i}/></div><div className="product-info"><h3>{p[1]}</h3><p>{p[2]}</p><span className="round"><Arrow/></span></div></Link>)}</div>
-      </section>
-      <section className="compliance"><div className="shell compliance-inner"><div><p className="eyebrow light"><span/> REGULATORY CONFIDENCE</p><h2>Compliance isn’t<br/>a checkpoint.<br/><em>It’s our foundation.</em></h2></div><div><p>Our dedicated regulatory team supports documentation, market access, and post-market requirements—so you can move forward with clarity.</p><Link className="button white" href="/fda">Our FDA approach <Arrow/></Link></div></div></section>
-    </main><Footer /></>;
-}
+import Link from "next/link"; import {Header,Footer,Arrow,ProductImage} from "./components";
+const reasons=[["01","Focused engineering","One core platform allows deeper attention to performance, usability and reliability."],["02","Controlled quality","Product development and production operate within an ISO 13485 quality framework."],["03","Responsive supply","Clear communication and structured planning support distributors and OEM partners."]];
+export default function Home(){return <><Header/><main>
+  <section className="home-hero hero-light"><div className="hero-background" aria-hidden="true"/><div className="wrap home-hero-grid"><div className="hero-copy"><p className="kicker">GLOBAL MEDICAL DEVICE MANUFACTURER</p><h1>Focused technology.<br/><em>Reliable therapy.</em></h1><p>We develop and manufacture a professional radial shockwave therapy system for distributors, healthcare providers and OEM partners worldwide.</p><div className="hero-actions"><Link className="solid-btn" href="/products">Explore the system <Arrow/></Link><Link className="text-btn" href="/contact">Become a partner <Arrow/></Link></div><div className="hero-meta"><span>Built for</span><b>Medical distributors</b><b>Therapy providers</b><b>OEM partners</b></div></div><span className="hero-model">RADIAL SHOCKWAVE SYSTEM / ST100</span></div></section>
+  <section className="trust-strip"><div className="wrap"><span>COMPLIANCE & PARTNERSHIP CAPABILITIES</span><div><b>FDA</b><small>U.S. market pathway</small></div><div><b>FSA / HSA</b><small>Multi-market support</small></div><div><b>OEM / ODM</b><small>Flexible cooperation</small></div></div></section>
+  <section className="section wrap"><div className="section-heading"><div><p className="kicker">CORE PRODUCT</p><h2>Engineered around<br/>professional use.</h2></div><div><p>A focused system that combines direct physical control, a clear touchscreen interface and interchangeable applicators.</p><Link className="text-btn" href="/products">View product details <Arrow/></Link></div></div><div className="product-feature"><div className="feature-image"><ProductImage/><span>PRODUCT SYSTEM / 01</span></div><div className="feature-copy"><p className="kicker">SHOCKWAVE THERAPY SYSTEM</p><h3>Clear operation. Consistent output.</h3><p>Designed for professional therapy environments where intuitive operation, repeatable settings and practical maintenance matter.</p><ul><li><span>01</span><div><b>Dual operation modes</b><small>Touchscreen presets and physical adjustment knobs.</small></div></li><li><span>02</span><div><b>Engineered handpiece</b><small>Durable construction for stable everyday use.</small></div></li><li><span>03</span><div><b>Seven applicator heads</b><small>Flexible configuration for different treatment areas.</small></div></li></ul><Link className="solid-btn" href="/contact">Request specifications <Arrow/></Link></div></div></section>
+  <section className="blue-section"><div className="wrap"><div className="section-heading inverse"><div><p className="kicker light">WHY AVEN</p><h2>A focused manufacturer.<br/><em>A dependable partner.</em></h2></div><p>Our scale keeps communication direct while our systems keep development and production controlled.</p></div><div className="reason-grid">{reasons.map(r=><article key={r[0]}><span>{r[0]}</span><h3>{r[1]}</h3><p>{r[2]}</p></article>)}</div></div></section>
+  <section className="section wrap"><div className="section-heading"><div><p className="kicker">QUALITY & MANUFACTURING</p><h2>From design intent<br/>to released product.</h2></div><div><p>Documented controls connect product requirements, supplier quality, assembly, inspection and final release.</p><Link className="text-btn" href="/quality">Explore quality assurance <Arrow/></Link></div></div><div className="process"><div><span>01</span><b>Design control</b></div><div><span>02</span><b>Supplier quality</b></div><div><span>03</span><b>Controlled assembly</b></div><div><span>04</span><b>Inspection & release</b></div></div></section>
+  <section className="partner-cta"><div className="wrap"><div><p className="kicker light">GLOBAL PARTNERSHIP</p><h2>Bring a focused therapy<br/>solution to your market.</h2></div><div><p>We support distributor evaluation, OEM discussions and hospital procurement with clear product, quality and commercial documentation.</p><Link className="solid-btn white" href="/contact">Talk to our team <Arrow/></Link></div></div></section>
+</main><Footer/></>}
