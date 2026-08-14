@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Arrow, Footer, Header } from "../components";
+import { ProductClinicalLinks, ProductEnhancementStyles, ProductFaqSection, ProductFeatureShowcase, ProductSelectionCta, ProfessionalApplicationsSection, SevenHeadsSection, WhatsIncludedSection } from "./ProductDetailEnhancements";
 
 const features = [
   {
@@ -55,18 +56,18 @@ const gallery = [
 ];
 
 const specifications = [
-  ["Pressure range", "1–8 Bar"],
+  ["Treatment heads", "7 interchangeable heads: D35, D20, A6, D15, R15, T10 and F15"],
+  ["Pressure range", "1–8 Bar (current Amazon listing)"],
   ["Adjustment precision", "0.1 Bar"],
-  ["Frequency", "1–21 Hz"],
-  ["Energy level", "Configurable pressure output; energy density not specified"],
+  ["Frequency", "1–21 Hz (current Amazon listing)"],
+  ["Energy level", "Energy density not provided; pending engineering documentation"],
   ["Display", "7-inch touchscreen"],
   ["Control method", "Touchscreen and dual adjustment knobs"],
-  ["Applicators", "7 interchangeable treatment heads"],
   ["Handpiece cable", "6 ft / approx. 1.83 m"],
   ["Rated power", "350 W"],
   ["Power supply", "Approx. 110 V, 50/60 Hz"],
-  ["Package dimensions", "18 × 13 × 13 in / approx. 45.7 × 33 × 33 cm"],
-  ["Shipping weight", "38 lb / approx. 17.2 kg"],
+  ["Device dimensions", "Pending engineering confirmation"],
+  ["Device net weight", "Pending engineering confirmation"],
   ["Included accessories", "Applicators, service parts, maintenance tools, user documents and transport cases"],
 ];
 
@@ -97,14 +98,15 @@ export default function Products() {
         <section className="product-detail-hero">
           <div className="wrap product-detail-hero-grid">
             <div className="product-detail-copy">
-              <p className="kicker">PROFESSIONAL SHOCKWAVE THERAPY SYSTEM</p>
-              <h1>SHOCKIS Shockwave<br />Therapy System</h1>
+              <p className="kicker">PROFESSIONAL RADIAL SHOCKWAVE THERAPY SYSTEM</p>
+              <h1>SHOCKIS<br />ST100</h1>
               <p className="product-detail-lead">
-                Professional extracorporeal shockwave therapy solution designed for rehabilitation and pain management.
+                A professional shockwave therapy solution designed for rehabilitation clinics, healthcare providers and global medical partners.
               </p>
               <Link className="solid-btn" href="/contact">
                 Request Information <Arrow />
               </Link>
+              <a className="text-btn product-spec-link" href="#technical-specifications">Download Specification <Arrow /></a>
               <div className="product-audience" aria-label="Designed for">
                 <span>DESIGNED FOR</span>
                 <b>Physiotherapy</b>
@@ -114,7 +116,7 @@ export default function Products() {
               </div>
             </div>
             <div className="product-detail-visual">
-              <img src="/images/products/st100-main.jpg" width="1189" height="1179" alt="SHOCKIS ST100 shockwave therapy system with seven applicators" />
+              <img src="/images/products/amazon-current/st100-main-current.jpg" width="1189" height="1179" alt="SHOCKIS ST100 radial shockwave therapy system with seven treatment heads" />
               <span>ST100 / RADIAL SHOCKWAVE PLATFORM</span>
             </div>
           </div>
@@ -139,6 +141,8 @@ export default function Products() {
             </div>
           </div>
         </section>
+
+        <ProfessionalApplicationsSection />
 
         <section className="product-key-features">
           <div className="wrap">
@@ -169,6 +173,11 @@ export default function Products() {
           </div>
         </section>
 
+        <SevenHeadsSection />
+        <ProductFeatureShowcase />
+        <WhatsIncludedSection />
+        <ProductClinicalLinks />
+
         <section className="section product-gallery-section">
           <div className="wrap">
             <div className="section-heading">
@@ -192,7 +201,7 @@ export default function Products() {
           </div>
         </section>
 
-        <section className="product-specifications-section">
+        <section className="product-specifications-section" id="technical-specifications">
           <div className="wrap product-specifications-grid">
             <div className="product-specifications-intro">
               <p className="kicker light">TECHNICAL SPECIFICATIONS</p>
@@ -233,6 +242,8 @@ export default function Products() {
           </div>
         </section>
 
+        <ProductFaqSection />
+
         <section className="partner-cta product-distributor-cta">
           <div className="wrap">
             <div>
@@ -245,8 +256,10 @@ export default function Products() {
             </div>
           </div>
         </section>
+        <ProductSelectionCta />
       </main>
       <Footer />
+      <ProductEnhancementStyles />
     </>
   );
 }

@@ -1,107 +1,89 @@
 import { Arrow, Footer, Header } from "../components";
 
+const quoteSteps = [
+  ["01", "Send product details", "Share the product model, estimated quantity and destination market."],
+  ["02", "Confirm requirements", "Our team reviews configuration, documentation and shipping requirements with you."],
+  ["03", "Receive quotation", "We confirm availability and prepare a quotation based on the agreed requirements."],
+];
+
 export default function RequestQuote() {
   return (
     <>
       <Header />
-      <main className="quote-page">
-        <section className="quote-hero">
-          <div className="wrap quote-hero-grid">
-            <div>
-              <p className="kicker">B2B PRODUCT INQUIRY</p>
-              <h1>Request a Quote for SHOCKIS Shockwave Therapy System</h1>
+      <main className="quote-v2-page">
+        <section className="quote-v2-hero">
+          <div className="quote-v2-product-bg" aria-hidden="true" />
+          <div className="wrap quote-v2-hero-content">
+            <p className="kicker">REQUEST A QUOTE</p>
+            <h1>Request pricing for your<br />SHOCKIS Shockwave Therapy System</h1>
+            <p>Tell us your product model, quantity, destination country and requirements.<br /><br />Our team will confirm availability, shipping details and provide quotation.</p>
+            <div className="quote-v2-trust" aria-label="SHOCKIS capabilities">
+              <span>FDA Registered</span>
+              <span>ISO 13485 Quality System</span>
+              <span>Global Medical Partner</span>
             </div>
-            <p>Collect customer requirements and provide product information, pricing and cooperation support.</p>
           </div>
         </section>
 
-        <section className="quote-content">
-          <div className="wrap quote-layout">
-            <aside className="quote-product-panel">
-              <div className="quote-product-image">
-                <img src="/images/products/st100-main.jpg" width="1189" height="1179" alt="SHOCKIS Shockwave Therapy System with applicators" />
-                <span>SELECTED PRODUCT / ST100</span>
-              </div>
-              <div className="quote-product-info">
-                <small>PRODUCT INFORMATION</small>
-                <h2>SHOCKIS Shockwave<br />Therapy System</h2>
-                <p>Professional shockwave therapy platform for rehabilitation clinics, healthcare providers and medical device partners.</p>
-                <dl>
-                  <div><dt>Product</dt><dd>Shockwave Therapy System</dd></div>
-                  <div><dt>Inquiry type</dt><dd>Product &amp; cooperation quotation</dd></div>
-                </dl>
+        <section className="quote-v2-content">
+          <div className="wrap quote-v2-layout">
+            <aside className="quote-v2-process">
+              <p className="kicker">QUOTE PROCESS</p>
+              <h2>How Quote Works</h2>
+              <p>One focused process for professional purchasers, healthcare providers and medical device partners.</p>
+              <div className="quote-v2-steps">
+                {quoteSteps.map(([number, title, copy]) => (
+                  <article key={number}>
+                    <span>{number}</span>
+                    <div><h3>{title}</h3><p>{copy}</p></div>
+                  </article>
+                ))}
               </div>
             </aside>
 
-            <form className="quote-form">
+            <form className="quote-v2-form">
               <header>
-                <span>REQUIREMENT DETAILS</span>
-                <h2>Tell us about your inquiry.</h2>
-                <p>Required fields help us prepare the appropriate product and cooperation information for your market.</p>
+                <p className="kicker">INQUIRY FORM</p>
+                <h2>Tell us what you need.</h2>
+                <p>Provide your business and product requirements so our team can prepare the appropriate quotation.</p>
               </header>
 
-              <div className="quote-form-row">
-                <label htmlFor="quote-name">Name <b>*</b>
-                  <input id="quote-name" name="name" required autoComplete="name" placeholder="Your name" />
-                </label>
-                <label htmlFor="quote-email">Email <b>*</b>
-                  <input id="quote-email" name="email" required type="email" autoComplete="email" placeholder="name@company.com" />
-                </label>
+              <div className="quote-v2-form-row">
+                <label htmlFor="quote-full-name">Full Name <b>*</b><input id="quote-full-name" name="fullName" required autoComplete="name" placeholder="Your full name" /></label>
+                <label htmlFor="quote-business-email">Business Email <b>*</b><input id="quote-business-email" name="email" required type="email" autoComplete="email" placeholder="name@company.com" /></label>
               </div>
 
-              <div className="quote-form-row">
-                <label htmlFor="quote-company">Company <b>*</b>
-                  <input id="quote-company" name="company" required autoComplete="organization" placeholder="Company or organization" />
-                </label>
-                <label htmlFor="quote-country">Country <b>*</b>
-                  <input id="quote-country" name="country" required autoComplete="country-name" placeholder="Country / market" />
-                </label>
-              </div>
+              <label htmlFor="quote-company-name">Company Name <b>*</b><input id="quote-company-name" name="company" required autoComplete="organization" placeholder="Company or organization" /></label>
 
-              <label htmlFor="quote-phone">Phone
-                <input id="quote-phone" name="phone" type="tel" autoComplete="tel" placeholder="Country code and phone number" />
-              </label>
-
-              <label htmlFor="quote-company-type">Company Type
-                <select id="quote-company-type" name="companyType" defaultValue="">
-                  <option value="" disabled>Select company type</option>
+              <label htmlFor="quote-buyer-type">Buyer Type
+                <select id="quote-buyer-type" name="buyerType" defaultValue="">
+                  <option value="" disabled>Select buyer type</option>
                   <option value="distributor">Distributor</option>
-                  <option value="clinic-hospital">Clinic / Hospital</option>
-                  <option value="rehabilitation-center">Rehabilitation Center</option>
-                  <option value="medical-supplier">Medical Supplier</option>
+                  <option value="clinic">Clinic</option>
+                  <option value="hospital">Hospital</option>
+                  <option value="oem-partner">OEM Partner</option>
                   <option value="other">Other</option>
                 </select>
               </label>
 
-              <label htmlFor="quote-product">Interested Product
-                <select id="quote-product" name="interestedProduct" defaultValue="shockwave-system">
-                  <option value="shockwave-system">SHOCKIS Shockwave Therapy System</option>
-                </select>
-              </label>
+              <div className="quote-v2-form-row">
+                <label htmlFor="quote-product-model">Product Model<input id="quote-product-model" name="productModel" defaultValue="Shockwave Therapy System" /></label>
+                <label htmlFor="quote-quantity">Quantity<input id="quote-quantity" name="quantity" type="number" min="1" placeholder="Estimated units" /></label>
+              </div>
 
-              <label htmlFor="quote-quantity">Quantity
-                <select id="quote-quantity" name="quantity" defaultValue="">
-                  <option value="" disabled>Select estimated quantity</option>
-                  <option value="1-5">1–5 Units</option>
-                  <option value="5-20">5–20 Units</option>
-                  <option value="20-plus">20+ Units</option>
-                </select>
-              </label>
+              <label htmlFor="quote-country-region">Country / Region<input id="quote-country-region" name="countryRegion" autoComplete="country-name" placeholder="Destination country or region" /></label>
+              <label htmlFor="quote-message">Message<textarea id="quote-message" name="message" rows={6} placeholder="Product configuration, delivery, documentation or cooperation requirements." /></label>
 
-              <label htmlFor="quote-message">Message
-                <textarea id="quote-message" name="message" rows={6} placeholder="Tell us about your market, application, documentation or cooperation requirements." />
-              </label>
-
-              <button className="solid-btn quote-submit" type="submit">Request Quote <Arrow /></button>
-              <small className="quote-privacy">Your information will only be used to respond to this business inquiry.</small>
+              <button className="solid-btn quote-v2-submit" type="submit">Submit Inquiry <Arrow /></button>
+              <small>Your information will only be used to respond to this business inquiry.</small>
             </form>
           </div>
         </section>
       </main>
       <Footer />
       <style>{`
-        .quote-page{background:#fff}.quote-hero{background:linear-gradient(132deg,#f7fafc 0%,#edf5fb 62%,#e4f0f8 100%);border-bottom:1px solid var(--line)}.quote-hero-grid{min-height:440px;display:grid;grid-template-columns:1.2fr .8fr;gap:100px;align-items:end;padding-top:90px;padding-bottom:75px}.quote-hero h1{max-width:800px;font-size:clamp(48px,5vw,69px);line-height:1.02;letter-spacing:-.055em;font-weight:480;color:#0a3763;margin:0}.quote-hero-grid>p{padding-left:55px;border-left:1px solid #b8cfdf;color:#536f88;font-size:14px;line-height:1.8;margin:0 0 8px}.quote-content{padding:105px 0 125px}.quote-layout{display:grid;grid-template-columns:.82fr 1.18fr;gap:85px;align-items:start}.quote-product-panel{position:sticky;top:120px;border:1px solid var(--line);background:#fff}.quote-product-image{height:470px;position:relative;background:#f1f6fa;overflow:hidden}.quote-product-image img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}.quote-product-image span{position:absolute;left:20px;bottom:20px;background:#ffffffe8;padding:8px 10px;font-size:7px;letter-spacing:.16em;color:#426984}.quote-product-info{padding:36px}.quote-product-info>small,.quote-form>header>span{font-size:7px;letter-spacing:.17em;color:#176db4;font-weight:800}.quote-product-info h2{font-size:28px;line-height:1.12;letter-spacing:-.035em;font-weight:520;margin:13px 0}.quote-product-info>p{font-size:10px;line-height:1.75;color:var(--muted)}.quote-product-info dl{margin:26px 0 0;border-top:1px solid var(--line)}.quote-product-info dl>div{display:flex;justify-content:space-between;gap:20px;padding:13px 0;border-bottom:1px solid var(--line)}.quote-product-info dt{font-size:8px;color:#738a9d}.quote-product-info dd{font-size:9px;font-weight:700;text-align:right;margin:0}.quote-form{padding:48px 50px;background:#f1f6fa;border:1px solid #dbe7f0;display:grid;gap:20px}.quote-form>header{padding-bottom:27px;margin-bottom:2px;border-bottom:1px solid #cfdee9}.quote-form>header h2{font-size:34px;line-height:1.1;letter-spacing:-.035em;font-weight:520;margin:12px 0}.quote-form>header p{font-size:10px;line-height:1.7;color:var(--muted);margin:0}.quote-form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.quote-form label{font-size:8px;letter-spacing:.04em;font-weight:750;color:#244b6d}.quote-form label b{color:#0b73b8}.quote-form input,.quote-form select,.quote-form textarea{width:100%;display:block;margin-top:8px;border:1px solid #c9dae7;background:#fff;padding:14px 15px;color:var(--ink);font:inherit;font-size:11px;outline:none;transition:border-color .2s,box-shadow .2s}.quote-form input,.quote-form select{height:48px}.quote-form textarea{resize:vertical;min-height:145px}.quote-form input:focus,.quote-form select:focus,.quote-form textarea:focus{border-color:#1785d1;box-shadow:0 0 0 3px #1785d112}.quote-form input::placeholder,.quote-form textarea::placeholder{color:#8ba0b2}.quote-submit{width:100%;margin-top:4px}.quote-privacy{text-align:center;font-size:7px;color:#71899c;line-height:1.6}
-        @media(max-width:820px){.quote-hero-grid,.quote-layout{grid-template-columns:1fr}.quote-hero-grid{min-height:auto;padding-top:70px;padding-bottom:65px;gap:30px}.quote-hero h1{font-size:46px}.quote-hero-grid>p{padding:25px 0 0;border-left:0;border-top:1px solid #b8cfdf;font-size:13px}.quote-content{padding:70px 0 85px}.quote-layout{gap:45px}.quote-product-panel{position:static}.quote-product-image{height:390px}.quote-form{padding:30px 22px}.quote-form-row{grid-template-columns:1fr}.quote-form>header h2{font-size:30px}}
+        .quote-v2-page{background:#fff}.quote-v2-hero{position:relative;min-height:650px;overflow:hidden;background:linear-gradient(110deg,#f8fbfd 0%,#eef5fa 55%,#e6f1f8 100%);border-bottom:1px solid var(--line)}.quote-v2-product-bg{position:absolute;inset:0 0 0 48%;background:linear-gradient(90deg,#eef5fa 0%,#eef5fad4 12%,#f5f9fb33 48%,#f5f9fb0d),url('/images/products/st100-main.jpg') center/contain no-repeat;opacity:.34;mix-blend-mode:multiply}.quote-v2-hero-content{position:relative;z-index:1;min-height:650px;padding:105px 0 78px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.quote-v2-hero h1{max-width:900px;font-size:clamp(52px,5.5vw,76px);line-height:1.01;letter-spacing:-.058em;font-weight:480;color:#0a3763;margin:0}.quote-v2-hero-content>p:not(.kicker){max-width:650px;font-size:14px;line-height:1.75;color:#526f87;margin:29px 0 38px}.quote-v2-trust{display:flex;gap:10px;flex-wrap:wrap}.quote-v2-trust span{padding:11px 14px;background:#ffffffd6;border:1px solid #bfd4e2;color:#315d7e;font-size:8px;font-weight:750;letter-spacing:.06em}.quote-v2-content{padding:115px 0 130px}.quote-v2-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:100px;align-items:start}.quote-v2-process{position:sticky;top:125px}.quote-v2-process h2{font-size:48px;line-height:1.05;letter-spacing:-.045em;font-weight:500;color:#0a3763;margin:0}.quote-v2-process>p:not(.kicker){max-width:440px;font-size:11px;line-height:1.8;color:#647c8f;margin:25px 0 40px}.quote-v2-steps{border-top:1px solid #cadbe6}.quote-v2-steps article{display:grid;grid-template-columns:42px 1fr;gap:18px;padding:22px 0;border-bottom:1px solid #cadbe6}.quote-v2-steps article>span{font-size:8px;color:#1681c6}.quote-v2-steps h3{font-size:15px;color:#153f63;margin:0 0 7px}.quote-v2-steps p{font-size:9px;line-height:1.7;color:#6c8192;margin:0}.quote-v2-form{padding:48px 50px;background:#f1f6fa;border:1px solid #dbe7f0;display:grid;gap:20px}.quote-v2-form header{padding-bottom:27px;border-bottom:1px solid #cfdee9}.quote-v2-form header h2{font-size:34px;line-height:1.1;letter-spacing:-.035em;font-weight:520;margin:0 0 11px}.quote-v2-form header>p:not(.kicker){font-size:10px;line-height:1.7;color:var(--muted);margin:0}.quote-v2-form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.quote-v2-form label{font-size:8px;letter-spacing:.04em;font-weight:750;color:#244b6d}.quote-v2-form label b{color:#0b73b8}.quote-v2-form input,.quote-v2-form select,.quote-v2-form textarea{display:block;width:100%;margin-top:8px;border:1px solid #c9dae7;background:#fff;padding:14px 15px;color:var(--ink);font:inherit;font-size:11px;outline:none;transition:border-color .2s,box-shadow .2s}.quote-v2-form input,.quote-v2-form select{height:48px}.quote-v2-form textarea{resize:vertical;min-height:145px}.quote-v2-form input:focus,.quote-v2-form select:focus,.quote-v2-form textarea:focus{border-color:#1785d1;box-shadow:0 0 0 3px #1785d112}.quote-v2-form input::placeholder,.quote-v2-form textarea::placeholder{color:#8ba0b2}.quote-v2-submit{width:100%;margin-top:4px}.quote-v2-form>small{text-align:center;font-size:7px;color:#71899c;line-height:1.6}
+        @media(max-width:820px){.quote-v2-hero,.quote-v2-hero-content{min-height:auto}.quote-v2-hero-content{padding:80px 0 70px}.quote-v2-hero h1{font-size:47px}.quote-v2-product-bg{inset:24% -28% 0 28%;opacity:.16}.quote-v2-layout{grid-template-columns:1fr;gap:50px}.quote-v2-content{padding:75px 0 85px}.quote-v2-process{position:static}.quote-v2-process h2{font-size:38px}.quote-v2-form{padding:30px 22px}.quote-v2-form-row{grid-template-columns:1fr}.quote-v2-form header h2{font-size:30px}}
       `}</style>
     </>
   );
