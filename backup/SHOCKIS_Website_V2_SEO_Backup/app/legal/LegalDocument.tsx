@@ -1,0 +1,9 @@
+import { Footer, Header } from "../components";
+
+export type LegalSection = { title: string; content: string };
+
+export function LegalDocument({ eyebrow, title, introduction, sections }: { eyebrow: string; title: string; introduction: string; sections: LegalSection[] }) {
+  return <><Header/><main className="legal-document"><section className="legal-hero"><div className="wrap"><p className="kicker">{eyebrow}</p><h1>{title}</h1><p>{introduction}</p></div></section><section className="wrap legal-content">{sections.map((section,index)=><article key={section.title}><span>{String(index+1).padStart(2,"0")}</span><div><h2>{section.title}</h2><p>{section.content}</p></div></article>)}</section></main><Footer/><style>{`
+    .legal-document{background:#fff;color:#0b1f3a}.legal-hero{padding:88px 0 70px;background:#f5f8fb;border-bottom:1px solid #dce5ec}.legal-hero h1{max-width:850px;margin:0;font-size:clamp(44px,6vw,68px);font-weight:560;line-height:1;letter-spacing:-.05em}.legal-hero>div>p:last-child{max-width:690px;margin:27px 0 0;color:#40566d;font-size:14px;line-height:1.75}.legal-content{padding-top:74px;padding-bottom:92px}.legal-content article{display:grid;grid-template-columns:52px 1fr;gap:28px;padding:27px 0;border-top:1px solid #dce5ec}.legal-content article:last-child{border-bottom:1px solid #dce5ec}.legal-content article>span{color:#176da5;font-size:9px;font-weight:800;letter-spacing:.12em}.legal-content h2{margin:0 0 10px;color:#0b1f3a;font-size:21px;font-weight:650}.legal-content p{max-width:850px;margin:0;color:#40566d;font-size:12px;line-height:1.8}.legal-content strong{color:#0b1f3a}@media(max-width:620px){.legal-hero{padding:66px 0 54px}.legal-content{padding-top:52px;padding-bottom:68px}.legal-content article{grid-template-columns:32px 1fr;gap:14px}.legal-content h2{font-size:18px}}
+  `}</style></>;
+}
