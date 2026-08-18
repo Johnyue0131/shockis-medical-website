@@ -275,18 +275,12 @@ export function HomepageVisualRefresh() {
 
       .home-visual-refresh .home-product-overview .section-heading .kicker {
         text-align: center;
-        margin-bottom: 12px;
-        color: #0b1f3a;
-        font-size: 10px;
-        font-weight: 800;
-        letter-spacing: 0.16em;
-      }
-
-      .home-visual-refresh .home-product-overview .section-heading h2 {
+        margin: 0;
         color: #081d3b;
         font-size: 46px;
         font-weight: 700;
         line-height: 1.08;
+        letter-spacing: -0.035em;
         white-space: nowrap;
       }
 
@@ -306,8 +300,8 @@ export function HomepageVisualRefresh() {
       .home-visual-refresh .home-product-overview .feature-image img {
         width: 100%;
         height: 100%;
-        padding: 38px 44px;
-        object-fit: contain;
+        padding: 0;
+        object-fit: cover;
         object-position: center;
       }
 
@@ -355,10 +349,6 @@ export function HomepageVisualRefresh() {
       }
 
       .home-visual-refresh .home-accessories-heading .kicker {
-        margin-bottom: 14px;
-      }
-
-      .home-visual-refresh .home-accessories-heading h2 {
         margin: 0;
         color: #081d3b;
         font-size: 46px;
@@ -366,14 +356,6 @@ export function HomepageVisualRefresh() {
         line-height: 1.08;
         letter-spacing: -0.035em;
         white-space: nowrap;
-      }
-
-      .home-visual-refresh .home-accessories-heading > p:last-child {
-        margin: 15px 0 0;
-        color: #40566d;
-        font-size: 12px;
-        font-weight: 450;
-        line-height: 1.65;
       }
 
       .home-visual-refresh .home-accessories-grid {
@@ -569,13 +551,9 @@ export function HomepageVisualRefresh() {
           margin-bottom: 28px;
         }
 
-        .home-visual-refresh .home-product-overview .section-heading h2 {
+        .home-visual-refresh .home-product-overview .section-heading .kicker {
           font-size: clamp(28px, 9vw, 36px);
           white-space: normal;
-        }
-
-        .home-visual-refresh .home-product-overview .section-heading .kicker {
-          font-size: 10px;
         }
 
         .home-visual-refresh .product-feature {
@@ -589,7 +567,7 @@ export function HomepageVisualRefresh() {
         }
 
         .home-visual-refresh .home-product-overview .feature-image img {
-          padding: 26px 20px;
+          padding: 0;
         }
 
         .home-visual-refresh .feature-copy {
@@ -604,7 +582,7 @@ export function HomepageVisualRefresh() {
           margin-bottom: 28px;
         }
 
-        .home-visual-refresh .home-accessories-heading h2 {
+        .home-visual-refresh .home-accessories-heading .kicker {
           font-size: clamp(28px, 9vw, 36px);
           white-space: normal;
         }

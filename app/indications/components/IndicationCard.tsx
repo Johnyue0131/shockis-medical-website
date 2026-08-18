@@ -26,7 +26,7 @@ export function IndicationCard({ indication }: { indication: IndicationDetail; i
       <div className="indication-card-copy">
         <h3>{indication.title}</h3>
         <p>{indication.cardDescription}</p>
-        <Link href={`/indications/${indication.slug}`}>Learn More <span aria-hidden="true">→</span></Link>
+        <Link href={`/applications/${indication.slug}`}>Learn More <span aria-hidden="true">→</span></Link>
       </div>
     </article>
   );

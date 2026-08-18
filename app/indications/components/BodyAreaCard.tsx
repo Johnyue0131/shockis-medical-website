@@ -28,7 +28,7 @@ export function BodyAreaCard({ area }: { area: BodyArea }) {
         <p>{area.description}</p>
         <ul>
           {area.conditions.map((condition) => (
-            <li key={condition.slug}><Link href={`/indications/${condition.slug}`}>{condition.name}<span aria-hidden="true">→</span></Link></li>
+            <li key={condition.slug}><Link href={`/applications/${condition.slug}`}>{condition.name}<span aria-hidden="true">→</span></Link></li>
           ))}
         </ul>
       </div>

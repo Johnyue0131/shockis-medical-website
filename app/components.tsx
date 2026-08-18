@@ -23,22 +23,23 @@ export function Header() {
           <div className="nav-dropdown">
             <button type="button" aria-haspopup="true">PRODUCTS <span aria-hidden="true">⌄</span></button>
             <div className="nav-dropdown-menu nav-products-menu">
-              <Link href="/product">SHOCKWAVE THERAPY SYSTEM</Link>
-              <Link href="/accessories">ACCESSORIES</Link>
+              <Link href="/products/shockwave-therapy-system">SHOCKWAVE THERAPY SYSTEM</Link>
+              <Link href="/products/accessories">ACCESSORIES</Link>
             </div>
           </div>
-          <Link href="/indications">INDICATIONS</Link>
+          <Link href="/applications">APPLICATIONS</Link>
           <div className="nav-dropdown">
             <button type="button" aria-haspopup="true">RESOURCES <span aria-hidden="true">⌄</span></button>
             <div className="nav-dropdown-menu">
-              <Link href="/faq">FAQ</Link>
-              <Link href="/downloads">DOWNLOADS</Link>
-              <Link href="/blog">BLOG</Link>
+              <Link href="/resources/knowledge-base">KNOWLEDGE BASE</Link>
+              <Link href="/resources/downloads">DOWNLOADS</Link>
+              <Link href="/resources/faq">FAQ</Link>
             </div>
           </div>
+          <Link href="/oem-solutions">OEM / CUSTOM SOLUTIONS</Link>
+          <Link href="/distributors">DISTRIBUTOR PROGRAM</Link>
           <Link href="/about">ABOUT</Link>
           <Link href="/contact">CONTACT</Link>
-          <Link href="/shop">SHOP</Link>
         </nav>
         <div className="nav-tools">
           <span><i /> Global supply</span>
@@ -49,16 +50,17 @@ export function Header() {
           <div role="navigation" aria-label="Mobile navigation">
             <Link href="/">HOME</Link>
             <span className="mobile-nav-label">PRODUCTS</span>
-            <Link className="mobile-nav-child" href="/product">SHOCKWAVE THERAPY SYSTEM</Link>
-            <Link className="mobile-nav-child" href="/accessories">ACCESSORIES</Link>
-            <Link href="/indications">INDICATIONS</Link>
+            <Link className="mobile-nav-child" href="/products/shockwave-therapy-system">SHOCKWAVE THERAPY SYSTEM</Link>
+            <Link className="mobile-nav-child" href="/products/accessories">ACCESSORIES</Link>
+            <Link href="/applications">APPLICATIONS</Link>
             <span className="mobile-nav-label">RESOURCES</span>
-            <Link className="mobile-nav-child" href="/faq">FAQ</Link>
-            <Link className="mobile-nav-child" href="/downloads">DOWNLOADS</Link>
-            <Link className="mobile-nav-child" href="/blog">BLOG</Link>
+            <Link className="mobile-nav-child" href="/resources/knowledge-base">KNOWLEDGE BASE</Link>
+            <Link className="mobile-nav-child" href="/resources/downloads">DOWNLOADS</Link>
+            <Link className="mobile-nav-child" href="/resources/faq">FAQ</Link>
+            <Link href="/oem-solutions">OEM / CUSTOM SOLUTIONS</Link>
+            <Link href="/distributors">DISTRIBUTOR PROGRAM</Link>
             <Link href="/about">ABOUT</Link>
             <Link href="/contact">CONTACT</Link>
-            <Link href="/shop">SHOP</Link>
           </div>
         </details>
       </div>
@@ -85,16 +87,16 @@ export function Footer() {
         </div>
         <div className="footer-links">
           <b>Explore</b>
-          <Link href="/product">Products</Link>
-          <Link href="/indications">Indications</Link>
-          <Link href="/accessories">Accessories</Link>
-          <Link href="/faq">Resources</Link>
-          <Link href="/downloads">Downloads</Link>
+          <Link href="/products/shockwave-therapy-system">Products</Link>
+          <Link href="/applications">Applications</Link>
+          <Link href="/resources">Resources</Link>
+          <Link href="/distributors">Distributor Program</Link>
+          <Link href="/oem-solutions">OEM Solutions</Link>
         </div>
         <div className="footer-links">
           <b>Support</b>
           <Link href="/contact">Contact</Link>
-          <Link href="/faq">FAQ</Link>
+          <Link href="/resources/faq">FAQ</Link>
           <Link href="/shipping-returns">Shipping &amp; Returns</Link>
           <Link href="/refund-policy">Refund Policy</Link>
           <Link href="/warranty-policy">Warranty Policy</Link>

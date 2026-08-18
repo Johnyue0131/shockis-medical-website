@@ -47,7 +47,7 @@ export function WhatsIncludedSection() {
 }
 
 export function ProductClinicalLinks() {
-  return <section className="st100-clinical-links"><div className="wrap"><div className="st100-heading"><div><p className="kicker">CLINICAL APPLICATIONS</p><h2>Explore professional application topics.</h2></div><p>Educational information for healthcare professionals evaluating shockwave therapy within appropriate rehabilitation pathways.</p></div><div className="st100-clinical-grid">{clinicalApplications.map((item, index) => <Link href="/indications" key={item}><span>0{index + 1}</span><h3>{item}</h3><b aria-hidden="true">→</b></Link>)}</div></div></section>;
+  return <section className="st100-clinical-links"><div className="wrap"><div className="st100-heading"><div><p className="kicker">CLINICAL APPLICATIONS</p><h2>Explore professional application topics.</h2></div><p>Educational information for healthcare professionals evaluating shockwave therapy within appropriate rehabilitation pathways.</p></div><div className="st100-clinical-grid">{clinicalApplications.map((item, index) => <Link href="/applications" key={item}><span>0{index + 1}</span><h3>{item}</h3><b aria-hidden="true">→</b></Link>)}</div></div></section>;
 }
 
 export function ProductFaqSection() {

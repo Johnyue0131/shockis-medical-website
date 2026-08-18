@@ -40,8 +40,8 @@ export function InteractiveBodyNavigation() {
             <span className="application-tag">{active.tag}</span>
             <h3>{active.title}</h3>
             <p>{active.description}</p>
-            <ul>{active.topics.map(([name, slug]) => <li key={slug}><Link href={`/indications/${slug}`}><span aria-hidden="true">✓</span>{name}</Link></li>)}</ul>
-            <Link className="application-learn-more" href={`/indications/${active.topics[0][1]}`}>Learn More <span aria-hidden="true">→</span></Link>
+            <ul>{active.topics.map(([name, slug]) => <li key={slug}><Link href={`/applications/${slug}`}><span aria-hidden="true">✓</span>{name}</Link></li>)}</ul>
+            <Link className="application-learn-more" href={`/applications/${active.topics[0][1]}`}>Learn More <span aria-hidden="true">→</span></Link>
           </article>
         </div>
       </div>

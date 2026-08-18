@@ -36,7 +36,7 @@ export default function IndicationDetailPage({ params }: { params: { slug: strin
         </section>
 
         <nav className="indication-detail-nav" aria-label="Breadcrumb">
-          <div className="wrap"><Link href="/indications">Indications</Link><span>/</span><span>{indication.title}</span></div>
+          <div className="wrap"><Link href="/applications">Applications</Link><span>/</span><span>{indication.title}</span></div>
         </nav>
 
         <section className="condition-overview">
@@ -76,7 +76,7 @@ export default function IndicationDetailPage({ params }: { params: { slug: strin
         <section className="condition-solution">
           <div className="wrap condition-solution-grid">
             <div><p className="kicker light">SHOCKIS SOLUTION</p><h2>Professional shockwave technology for healthcare environments.</h2></div>
-            <div><p>The SHOCKIS Shockwave Therapy System is developed for professional rehabilitation and healthcare workflows. Its configurable operation and applicator options support trained users evaluating shockwave therapy across appropriate clinical applications.</p><Link className="solid-btn white" href="/products">Explore the system <Arrow /></Link></div>
+            <div><p>The SHOCKIS Shockwave Therapy System is developed for professional rehabilitation and healthcare workflows. Its configurable operation and applicator options support trained users evaluating shockwave therapy across appropriate clinical applications.</p><Link className="solid-btn white" href="/products/shockwave-therapy-system">Explore the system <Arrow /></Link></div>
           </div>
         </section>
 
@@ -92,7 +92,7 @@ export default function IndicationDetailPage({ params }: { params: { slug: strin
         <section className="condition-help">
           <div className="wrap"><div className="condition-help-card">
             <div><p className="kicker light">PRODUCT SELECTION SUPPORT</p><h2>Need help choosing the right shockwave system?</h2></div>
-            <div><p>Discuss your clinical environment, market requirements and professional product needs with the SHOCKIS team.</p><div className="condition-help-actions"><Link className="solid-btn white" href="/products">Explore Products <Arrow /></Link><Link className="outline-btn light" href="/request-quote">Request Quote <Arrow /></Link><Link className="text-btn light" href="/contact">Contact Team <Arrow /></Link></div></div>
+            <div><p>Discuss your clinical environment, market requirements and professional product needs with the SHOCKIS team.</p><div className="condition-help-actions"><Link className="solid-btn white" href="/products/shockwave-therapy-system">Explore Products <Arrow /></Link><Link className="outline-btn light" href="/request-quote">Request Quote <Arrow /></Link><Link className="text-btn light" href="/contact">Contact Team <Arrow /></Link></div></div>
           </div></div>
         </section>
       </main>
