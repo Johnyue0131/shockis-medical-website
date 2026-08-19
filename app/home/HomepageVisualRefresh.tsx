@@ -239,9 +239,9 @@ export function HomepageVisualRefresh() {
 
       .home-visual-refresh .trust-intro > span:last-child {
         color: #081d3b;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 700;
-        line-height: 1.7;
+        line-height: 1.55;
         letter-spacing: 0.04em;
       }
 
@@ -252,8 +252,10 @@ export function HomepageVisualRefresh() {
 
       .home-visual-refresh .trust-strip small {
         margin-top: 7px;
-        font-size: 11px;
-        line-height: 1.4;
+        color: #334155;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 1.45;
         text-transform: none;
       }
 
@@ -297,6 +299,12 @@ export function HomepageVisualRefresh() {
         background: #ffffff;
       }
 
+      .home-visual-refresh .home-product-overview .feature-copy .kicker {
+        color: #0f5f9f;
+        font-size: 11px;
+        font-weight: 800;
+      }
+
       .home-visual-refresh .home-product-overview .feature-image img {
         width: 100%;
         height: 100%;
@@ -324,15 +332,18 @@ export function HomepageVisualRefresh() {
       .home-visual-refresh .feature-copy li > span,
       .home-visual-refresh .feature-image > span {
         color: #176da5;
+        font-size: 10px;
         font-weight: 750;
       }
 
       .home-visual-refresh .feature-copy li b {
-        color: #17324d;
+        color: #0b1f3a;
+        font-size: 15px;
         font-weight: 700;
       }
 
       .home-visual-refresh .product-detail-link {
+        font-size: 13px;
         margin-top: 2px;
       }
 
@@ -388,8 +399,9 @@ export function HomepageVisualRefresh() {
       .home-visual-refresh .home-accessory-item b {
         display: block;
         margin-top: 13px;
-        font-size: 11px;
-        font-weight: 700;
+        color: #0b1f3a;
+        font-size: 14px;
+        font-weight: 750;
       }
 
       .home-visual-refresh .home-accessory-item:hover {
@@ -404,6 +416,10 @@ export function HomepageVisualRefresh() {
         display: flex;
         justify-content: center;
         margin-top: 28px;
+      }
+
+      .home-visual-refresh .home-accessories-cta .text-btn {
+        font-size: 13px;
       }
 
       .home-visual-refresh .feature-copy li small {

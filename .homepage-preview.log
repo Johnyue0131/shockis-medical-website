@@ -1,0 +1,13 @@
+
+> site-creator-vinext-starter@0.1.0 dev
+> vinext dev
+
+
+  vinext dev  (Vite 8.0.13)
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Debug:   http://localhost:3000/__debug
+ GET / 200 in 1.7s (compile: 1787117145.2s, render: 1.3s)
+ GET / 200 in 102ms (compile: 1787117144.8s, render: 69ms)
+ GET / 200 in 150ms (compile: 1787117144.8s, render: 93ms)
+ GET / 200 in 94ms (compile: 1787117144.8s, render: 63ms)
