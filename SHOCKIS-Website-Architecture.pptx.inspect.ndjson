@@ -1,0 +1,290 @@
+{"kind":"deck","id":"pr/1hwcsc","name":"Deck"}
+{"kind":"layout","layoutId":"1aed9478-04a0-4cad-be80-1e23462f8319","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"8b0f07f3-676e-45cc-b606-8b62c05351bb","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/nqsqx2","slide":1,"title":"SHOCKIS","textShapes":6}
+{"kind":"shape","id":"sh/ratc7yd4","slide":1,"bbox":[0,0,520,720]}
+{"kind":"textbox","id":"sh/cv2tg3ep","slide":1,"text":"SHOCKIS","textPreview":"SHOCKIS","textChars":7,"textLines":1,"bbox":[64,62,260,28]}
+{"kind":"textbox","id":"sh/dwbu98va","slide":1,"text":"Website Architecture","textPreview":"Website Architecture","textChars":20,"textLines":1,"bbox":[64,166,420,105]}
+{"kind":"textbox","id":"sh/exkvidwv","slide":1,"text":"网站架构总览","textPreview":"网站架构总览","textChars":6,"textLines":1,"bbox":[64,282,340,45]}
+{"kind":"textbox","id":"sh/zytcbidg","slide":1,"text":"面向全球医疗器械合作伙伴的品牌官网\n兼顾客户沟通与内部维护","textPreview":"面向全球医疗器械合作伙伴的品牌官网 | 兼顾客户沟通与内部维护","textChars":29,"textLines":2,"bbox":[64,368,390,82]}
+{"kind":"shape","id":"sh/0zmdkne1","slide":1,"bbox":[64,516,220,30]}
+{"kind":"textbox","id":"sh/10vudsvm","slide":1,"text":"V3 · CURRENT STRUCTURE","textPreview":"V3 · CURRENT STRUCTURE","textChars":22,"textLines":1,"bbox":[64,521,220,20]}
+{"kind":"textbox","id":"sh/u10b6twr","slide":1,"text":"2026","textPreview":"2026","textChars":4,"textLines":1,"bbox":[64,650,100,22]}
+{"kind":"shape","id":"sh/zex0ny5k","slide":1,"bbox":[520,0,760,720]}
+{"kind":"image","id":"im/e983e5kz","slide":1,"name":"","alt":"shockis-hero-wide-v2.png","bbox":[520,0,760,720]}
+{"kind":"notes","id":"nt/nqsqx2","slide":1,"text":"[Sources]\n- Local project asset: public/images/shockis-hero-wide-v2.png\n- Local project source: app/ and public/\n[/Sources]"}
+{"kind":"slide","id":"sl/99w8rd","slide":2,"title":"EXECUTIVE VIEW","textShapes":21}
+{"kind":"textbox","id":"sh/76pozyd8","slide":2,"text":"EXECUTIVE VIEW","textPreview":"EXECUTIVE VIEW","textChars":14,"textLines":1,"bbox":[64,42,420,22]}
+{"kind":"textbox","id":"sh/87y5s3ut","slide":2,"text":"一个聚焦产品、可持续扩展的 B2B 官网","textPreview":"一个聚焦产品、可持续扩展的 B2B 官网","textChars":20,"textLines":1,"bbox":[64,70,1100,54]}
+{"kind":"textbox","id":"sh/t87618ve","slide":2,"text":"以冲击波治疗系统为核心，用专业内容建立信任，用清晰路径承接询盘。","textPreview":"以冲击波治疗系统为核心，用专业内容建立信任，用清晰路径承接询盘。","textChars":32,"textLines":1,"bbox":[64,128,1080,44]}
+{"kind":"shape","id":"sh/u9gnudcz","slide":2,"bbox":[64,180,1152,2]}
+{"kind":"shape","id":"sh/vupo3idk","slide":2,"bbox":[64,226,258,330]}
+{"kind":"textbox","id":"sh/gvy5wnu5","slide":2,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[88,248,48,26]}
+{"kind":"textbox","id":"sh/hwr65svq","slide":2,"text":"品牌定位","textPreview":"品牌定位","textChars":4,"textLines":1,"bbox":[88,294,210,36]}
+{"kind":"textbox","id":"sh/adwni9cv","slide":2,"text":"Professional medical device manufacturer","textPreview":"Professional medical device manufacturer","textChars":40,"textLines":1,"bbox":[88,354,210,64]}
+{"kind":"shape","id":"sh/by54red0","slide":2,"bbox":[88,440,190,2]}
+{"kind":"textbox","id":"sh/f2l43ehk","slide":2,"text":"专业、可靠、全球合作","textPreview":"专业、可靠、全球合作","textChars":10,"textLines":1,"bbox":[88,466,210,62]}
+{"kind":"shape","id":"sh/e1c3a9gz","slide":2,"bbox":[350,226,258,330]}
+{"kind":"textbox","id":"sh/143m54zq","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[374,248,48,26]}
+{"kind":"textbox","id":"sh/03ulcjy5","slide":2,"text":"核心产品","textPreview":"核心产品","textChars":4,"textLines":1,"bbox":[374,294,210,36]}
+{"kind":"textbox","id":"sh/re14zuho","slide":2,"text":"SHOCKIS ST100","textPreview":"SHOCKIS ST100","textChars":13,"textLines":1,"bbox":[374,354,210,64]}
+{"kind":"shape","id":"sh/qds36pg3","slide":2,"bbox":[374,440,190,2]}
+{"kind":"textbox","id":"sh/dg3m14ze","slide":2,"text":"冲击波治疗系统与配件","textPreview":"冲击波治疗系统与配件","textChars":10,"textLines":1,"bbox":[374,466,210,62]}
+{"kind":"shape","id":"sh/sfal8zy9","slide":2,"bbox":[636,226,258,330]}
+{"kind":"textbox","id":"sh/3a1kvuhc","slide":2,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[660,248,48,26]}
+{"kind":"textbox","id":"sh/i9s32pgr","slide":2,"text":"目标客户","textPreview":"目标客户","textChars":4,"textLines":1,"bbox":[660,294,210,36]}
+{"kind":"textbox","id":"sh/658nepkz","slide":2,"text":"Distributors · Clinics · OEM","textPreview":"Distributors · Clinics · OEM","textChars":28,"textLines":1,"bbox":[660,354,210,64]}
+{"kind":"shape","id":"sh/76h4na1k","slide":2,"bbox":[660,440,190,2]}
+{"kind":"textbox","id":"sh/87q5gf2p","slide":2,"text":"经销商、医疗机构与合作伙伴","textPreview":"经销商、医疗机构与合作伙伴","textChars":13,"textLines":1,"bbox":[660,466,210,62]}
+{"kind":"shape","id":"sh/t8zmpkja","slide":2,"bbox":[922,226,258,330]}
+{"kind":"textbox","id":"sh/u9snipkv","slide":2,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[946,248,48,26]}
+{"kind":"textbox","id":"sh/va14ru1g","slide":2,"text":"网站目标","textPreview":"网站目标","textChars":4,"textLines":1,"bbox":[946,294,210,36]}
+{"kind":"textbox","id":"sh/gba5kz21","slide":2,"text":"Trust → Explore → Inquiry","textPreview":"Trust → Explore → Inquiry","textChars":25,"textLines":1,"bbox":[946,354,210,64]}
+{"kind":"shape","id":"sh/hcjmt4jm","slide":2,"bbox":[946,440,190,2]}
+{"kind":"textbox","id":"sh/idsnm9k7","slide":2,"text":"从了解品牌到提交询盘","textPreview":"从了解品牌到提交询盘","textChars":10,"textLines":1,"bbox":[946,466,210,62]}
+{"kind":"textbox","id":"sh/3e14ve1c","slide":2,"text":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textPreview":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textChars":40,"textLines":1,"bbox":[64,685,500,18]}
+{"kind":"textbox","id":"sh/d8nql83u","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,685,44,18]}
+{"kind":"notes","id":"nt/99w8rd","slide":2,"text":"[Sources]\n- Local project routes and page content under app/\n[/Sources]"}
+{"kind":"slide","id":"sl/ieoa2e","slide":3,"title":"INFORMATION ARCHITECTURE","textShapes":20}
+{"kind":"textbox","id":"sh/3218ra9k","slide":3,"text":"INFORMATION ARCHITECTURE","textPreview":"INFORMATION ARCHITECTURE","textChars":24,"textLines":1,"bbox":[64,42,420,22]}
+{"kind":"textbox","id":"sh/ona9kfq5","slide":3,"text":"Website Sitemap V3","textPreview":"Website Sitemap V3","textChars":18,"textLines":1,"bbox":[64,70,1100,54]}
+{"kind":"textbox","id":"sh/po3qtkrq","slide":3,"text":"主导航保持简洁，内容通过产品、适应症、资源与转化页面逐层展开。","textPreview":"主导航保持简洁，内容通过产品、适应症、资源与转化页面逐层展开。","textChars":31,"textLines":1,"bbox":[64,128,1080,44]}
+{"kind":"shape","id":"sh/qpcrmp8b","slide":3,"bbox":[64,180,1152,2]}
+{"kind":"shape","id":"sh/bql8vu9w","slide":3,"bbox":[42,220,154,74]}
+{"kind":"textbox","id":"sh/cru9ozqh","slide":3,"text":"HOME\n/","textPreview":"HOME | /","textChars":6,"textLines":2,"bbox":[50,237,138,42]}
+{"kind":"shape","id":"sh/ds3qx4rm","slide":3,"bbox":[216,220,154,74]}
+{"kind":"textbox","id":"sh/ytcrqp87","slide":3,"text":"PRODUCTS\n/products","textPreview":"PRODUCTS | /products","textChars":18,"textLines":2,"bbox":[224,237,138,42]}
+{"kind":"shape","id":"sh/zul8zu9s","slide":3,"bbox":[390,220,154,74]}
+{"kind":"textbox","id":"sh/7axc3il8","slide":3,"text":"INDICATIONS\n/indications","textPreview":"INDICATIONS | /indications","textChars":24,"textLines":2,"bbox":[398,237,138,42]}
+{"kind":"shape","id":"sh/69ovaxkn","slide":3,"bbox":[564,220,154,74]}
+{"kind":"textbox","id":"sh/tcfu5s3e","slide":3,"text":"RESOURCES","textPreview":"RESOURCES","textChars":9,"textLines":1,"bbox":[572,237,138,42]}
+{"kind":"shape","id":"sh/sb6dcn2t","slide":3,"bbox":[738,220,154,74]}
+{"kind":"textbox","id":"sh/j6dczilc","slide":3,"text":"ABOUT\n/about","textPreview":"ABOUT | /about","textChars":12,"textLines":2,"bbox":[746,237,138,42]}
+{"kind":"shape","id":"sh/i54v6dkr","slide":3,"bbox":[912,220,154,74]}
+{"kind":"textbox","id":"sh/58vu1s32","slide":3,"text":"CONTACT\n/contact","textPreview":"CONTACT | /contact","textChars":16,"textLines":2,"bbox":[920,237,138,42]}
+{"kind":"shape","id":"sh/k7md8n2h","slide":3,"bbox":[1086,220,154,74]}
+{"kind":"textbox","id":"sh/32hwbmlg","slide":3,"text":"SHOP\n/shop","textPreview":"SHOP | /shop","textChars":10,"textLines":2,"bbox":[1094,237,138,42]}
+{"kind":"shape","id":"sh/218vihkv","slide":3,"bbox":[216,335,154,70]}
+{"kind":"textbox","id":"sh/exsfal43","slide":3,"text":"Shockwave Therapy System\n/product · /products","textPreview":"Shockwave Therapy System | /product · /products","textChars":45,"textLines":2,"bbox":[224,349,138,42]}
+{"kind":"shape","id":"sh/zy1g365o","slide":3,"bbox":[216,435,154,70]}
+{"kind":"textbox","id":"sh/0zuxcbm9","slide":3,"text":"Accessories\n/accessories","textPreview":"Accessories | /accessories","textChars":24,"textLines":2,"bbox":[224,449,138,42]}
+{"kind":"shape","id":"sh/103y5gnu","slide":3,"bbox":[390,335,154,70]}
+{"kind":"textbox","id":"sh/m1cfel4z","slide":3,"text":"6 Condition Pages\n/indications/[slug]","textPreview":"6 Condition Pages | /indications/[slug]","textChars":37,"textLines":2,"bbox":[398,349,138,42]}
+{"kind":"shape","id":"sh/n2lg7q5k","slide":3,"bbox":[564,335,154,70]}
+{"kind":"textbox","id":"sh/o3uhgvm5","slide":3,"text":"FAQ · Downloads · Blog","textPreview":"FAQ · Downloads · Blog","textChars":22,"textLines":1,"bbox":[572,349,138,42]}
+{"kind":"shape","id":"sh/943y90nq","slide":3,"bbox":[912,335,154,70]}
+{"kind":"textbox","id":"sh/258f214v","slide":3,"text":"Request Quote\n/request-quote","textPreview":"Request Quote | /request-quote","textChars":28,"textLines":2,"bbox":[920,349,138,42]}
+{"kind":"shape","id":"sh/36hgvm5g","slide":3,"bbox":[1086,335,154,70]}
+{"kind":"textbox","id":"sh/5k7i147y","slide":3,"text":"Product Catalog\n/shop","textPreview":"Product Catalog | /shop","textChars":21,"textLines":2,"bbox":[1094,349,138,42]}
+{"kind":"textbox","id":"sh/kjy18z6d","slide":3,"text":"LEGAL & SUPPORT","textPreview":"LEGAL & SUPPORT","textChars":15,"textLines":1,"bbox":[64,565,180,22]}
+{"kind":"textbox","id":"sh/jy50zups","slide":3,"text":"Privacy Policy  ·  Terms of Service  ·  Shipping & Returns  ·  Refund Policy  ·  Warranty Policy","textPreview":"Privacy Policy  ·  Terms of Service  ·  Shipping & Returns  ·  Refund Policy  ·  Warranty Policy","textChars":96,"textLines":1,"bbox":[64,600,1060,30]}
+{"kind":"textbox","id":"sh/ixwj6po7","slide":3,"text":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textPreview":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textChars":40,"textLines":1,"bbox":[64,685,500,18]}
+{"kind":"textbox","id":"sh/to7i547a","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,685,44,18]}
+{"kind":"notes","id":"nt/ieoa2e","slide":3,"text":"[Sources]\n- Local project routes under app/**/page.tsx\n[/Sources]"}
+{"kind":"slide","id":"sl/ca805n","slide":4,"title":"PAGE PORTFOLIO","textShapes":32}
+{"kind":"textbox","id":"sh/rq9sratc","slide":4,"text":"PAGE PORTFOLIO","textPreview":"PAGE PORTFOLIO","textChars":14,"textLines":1,"bbox":[64,42,420,22]}
+{"kind":"textbox","id":"sh/cbi9kvux","slide":4,"text":"现有页面与业务角色","textPreview":"现有页面与业务角色","textChars":9,"textLines":1,"bbox":[64,70,1100,54]}
+{"kind":"textbox","id":"sh/dcrat0bi","slide":4,"text":"每个页面只承担一个核心任务，避免首页或产品页信息过载。","textPreview":"每个页面只承担一个核心任务，避免首页或产品页信息过载。","textChars":27,"textLines":1,"bbox":[64,128,1080,44]}
+{"kind":"shape","id":"sh/2lgrelcv","slide":4,"bbox":[64,180,1152,2]}
+{"kind":"textbox","id":"sh/3mpsnqdg","slide":4,"text":"PAGE","textPreview":"PAGE","textChars":4,"textLines":1,"bbox":[70,212,190,24]}
+{"kind":"textbox","id":"sh/4ny9gvu1","slide":4,"text":"ROUTE","textPreview":"ROUTE","textChars":5,"textLines":1,"bbox":[310,212,280,24]}
+{"kind":"textbox","id":"sh/po7ap0bm","slide":4,"text":"PRIMARY ROLE","textPreview":"PRIMARY ROLE","textChars":12,"textLines":1,"bbox":[640,212,530,24]}
+{"kind":"shape","id":"sh/uhgralcz","slide":4,"bbox":[58,240,1164,44]}
+{"kind":"textbox","id":"sh/fip8jqd4","slide":4,"text":"Home","textPreview":"Home","textChars":4,"textLines":1,"bbox":[70,248,220,24]}
+{"kind":"textbox","id":"sh/fetgfy18","slide":4,"text":"/","textPreview":"/","textChars":1,"textLines":1,"bbox":[310,248,300,24]}
+{"kind":"textbox","id":"sh/edkf6tkn","slide":4,"text":"品牌第一印象、合规能力、核心产品、配件与评价","textPreview":"品牌第一印象、合规能力、核心产品、配件与评价","textChars":22,"textLines":1,"bbox":[640,248,550,24]}
+{"kind":"textbox","id":"sh/1gbyhoje","slide":4,"text":"Products","textPreview":"Products","textChars":8,"textLines":1,"bbox":[70,298,220,24]}
+{"kind":"textbox","id":"sh/0f2h83it","slide":4,"text":"/products · /product","textPreview":"/products · /product","textChars":20,"textLines":1,"bbox":[310,298,300,24]}
+{"kind":"textbox","id":"sh/nitgjy1k","slide":4,"text":"ST100 产品详情、图片画廊、参数、FAQ 与询盘","textPreview":"ST100 产品详情、图片画廊、参数、FAQ 与询盘","textChars":26,"textLines":1,"bbox":[640,298,550,24]}
+{"kind":"shape","id":"sh/2hkzat0z","slide":4,"bbox":[58,340,1164,44]}
+{"kind":"textbox","id":"sh/p4vyl8jq","slide":4,"text":"Accessories","textPreview":"Accessories","textChars":11,"textLines":1,"bbox":[70,348,220,24]}
+{"kind":"textbox","id":"sh/oj2hc3i5","slide":4,"text":"/accessories","textPreview":"/accessories","textChars":12,"textLines":1,"bbox":[310,348,300,24]}
+{"kind":"textbox","id":"sh/3m9g7e10","slide":4,"text":"配件分类框架与 Shop 入口","textPreview":"配件分类框架与 Shop 入口","textChars":15,"textLines":1,"bbox":[640,348,550,24]}
+{"kind":"textbox","id":"sh/il0fy9kv","slide":4,"text":"Indications","textPreview":"Indications","textChars":11,"textLines":1,"bbox":[70,398,220,24]}
+{"kind":"textbox","id":"sh/6d8r21of","slide":4,"text":"/indications · /indications/[slug]","textPreview":"/indications · /indications/[slug]","textChars":34,"textLines":1,"bbox":[310,398,300,24]}
+{"kind":"textbox","id":"sh/7ehsv6p0","slide":4,"text":"临床应用入口、身体区域与 SEO 子页面","textPreview":"临床应用入口、身体区域与 SEO 子页面","textChars":20,"textLines":1,"bbox":[640,398,550,24]}
+{"kind":"shape","id":"sh/sfqt4b6l","slide":4,"bbox":[58,440,1164,44]}
+{"kind":"textbox","id":"sh/tgjaxg76","slide":4,"text":"About","textPreview":"About","textChars":5,"textLines":1,"bbox":[70,448,220,24]}
+{"kind":"textbox","id":"sh/i98ry18j","slide":4,"text":"/about","textPreview":"/about","textChars":6,"textLines":1,"bbox":[310,448,300,24]}
+{"kind":"textbox","id":"sh/jahsr6p4","slide":4,"text":"品牌故事、使命、愿景与支持 CTA","textPreview":"品牌故事、使命、愿景与支持 CTA","textChars":17,"textLines":1,"bbox":[640,448,550,24]}
+{"kind":"textbox","id":"sh/kbq90b69","slide":4,"text":"Contact / Quote","textPreview":"Contact / Quote","textChars":15,"textLines":1,"bbox":[70,498,220,24]}
+{"kind":"textbox","id":"sh/5czatw7u","slide":4,"text":"/contact · /request-quote","textPreview":"/contact · /request-quote","textChars":25,"textLines":1,"bbox":[310,498,300,24]}
+{"kind":"textbox","id":"sh/aloruh87","slide":4,"text":"业务询盘、技术支持与报价需求","textPreview":"业务询盘、技术支持与报价需求","textChars":14,"textLines":1,"bbox":[640,498,550,24]}
+{"kind":"shape","id":"sh/vmxsnmps","slide":4,"bbox":[58,540,1164,44]}
+{"kind":"textbox","id":"sh/d0nutkra","slide":4,"text":"Shop","textPreview":"Shop","textChars":4,"textLines":1,"bbox":[70,548,220,24]}
+{"kind":"textbox","id":"sh/czed0fqp","slide":4,"text":"/shop","textPreview":"/shop","textChars":5,"textLines":1,"bbox":[310,548,300,24]}
+{"kind":"textbox","id":"sh/relcru94","slide":4,"text":"B2B 产品目录，不展示价格或购物车","textPreview":"B2B 产品目录，不展示价格或购物车","textChars":18,"textLines":1,"bbox":[640,548,550,24]}
+{"kind":"textbox","id":"sh/qdcvyp8z","slide":4,"text":"Resources / Legal","textPreview":"Resources / Legal","textChars":17,"textLines":1,"bbox":[70,598,220,24]}
+{"kind":"textbox","id":"sh/pc3upkre","slide":4,"text":"/faq · policies","textPreview":"/faq · policies","textChars":15,"textLines":1,"bbox":[310,598,300,24]}
+{"kind":"textbox","id":"sh/4budwfqt","slide":4,"text":"内容支持、下载与合规基础页面","textPreview":"内容支持、下载与合规基础页面","textChars":14,"textLines":1,"bbox":[640,598,550,24]}
+{"kind":"textbox","id":"sh/3alcna98","slide":4,"text":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textPreview":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textChars":40,"textLines":1,"bbox":[64,685,500,18]}
+{"kind":"textbox","id":"sh/29cvu58n","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,685,44,18]}
+{"kind":"notes","id":"nt/ca805n","slide":4,"text":"[Sources]\n- Local project route scan: app/**/page.tsx\n[/Sources]"}
+{"kind":"slide","id":"sl/oh55je","slide":5,"title":"HOMEPAGE ANATOMY","textShapes":30}
+{"kind":"textbox","id":"sh/65krul8b","slide":5,"text":"HOMEPAGE ANATOMY","textPreview":"HOMEPAGE ANATOMY","textChars":16,"textLines":1,"bbox":[64,42,420,22]}
+{"kind":"textbox","id":"sh/tsvapg72","slide":5,"text":"首页是一条快速信任路径","textPreview":"首页是一条快速信任路径","textChars":11,"textLines":1,"bbox":[64,70,1100,54]}
+{"kind":"textbox","id":"sh/s729wvqh","slide":5,"text":"Overview first：让访问者快速理解品牌、产品与下一步行动。","textPreview":"Overview first：让访问者快速理解品牌、产品与下一步行动。","textChars":35,"textLines":1,"bbox":[64,128,1080,44]}
+{"kind":"shape","id":"sh/j2tsj6p0","slide":5,"bbox":[64,180,1152,2]}
+{"kind":"shape","id":"sh/i1krq18f","slide":5,"bbox":[54,238,174,198]}
+{"kind":"textbox","id":"sh/54balg7q","slide":5,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[72,256,40,20]}
+{"kind":"textbox","id":"sh/k329sbq5","slide":5,"text":"HERO","textPreview":"HERO","textChars":4,"textLines":1,"bbox":[72,300,138,28]}
+{"kind":"textbox","id":"sh/vy98f6po","slide":5,"text":"定位 + 单一 CTA","textPreview":"定位 + 单一 CTA","textChars":11,"textLines":1,"bbox":[72,348,138,54]}
+{"kind":"textbox","id":"sh/ax0rm183","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[230,320,24,30]}
+{"kind":"shape","id":"sh/cbehsbu1","slide":5,"bbox":[255,238,174,198]}
+{"kind":"textbox","id":"sh/xcnylgbm","slide":5,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[273,256,40,20]}
+{"kind":"textbox","id":"sh/a9wzqlcb","slide":5,"text":"COMPLIANCE","textPreview":"COMPLIANCE","textChars":10,"textLines":1,"bbox":[273,300,138,28]}
+{"kind":"textbox","id":"sh/ba5gjqtg","slide":5,"text":"FDA · FSA/HSA · OEM/ODM","textPreview":"FDA · FSA/HSA · OEM/ODM","textChars":23,"textLines":1,"bbox":[273,348,138,54]}
+{"kind":"textbox","id":"sh/onuxobu5","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[431,320,24,30]}
+{"kind":"shape","id":"sh/p83yhgbq","slide":5,"bbox":[456,238,174,198]}
+{"kind":"textbox","id":"sh/2lcfm1cz","slide":5,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[474,256,40,20]}
+{"kind":"textbox","id":"sh/nmlgf6tk","slide":5,"text":"CORE PRODUCT","textPreview":"CORE PRODUCT","textChars":12,"textLines":1,"bbox":[474,300,138,28]}
+{"kind":"textbox","id":"sh/8jyh0vu9","slide":5,"text":"主产品 + 详情入口","textPreview":"主产品 + 详情入口","textChars":10,"textLines":1,"bbox":[474,348,138,54]}
+{"kind":"textbox","id":"sh/t47yt0bu","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[632,320,24,30]}
+{"kind":"shape","id":"sh/hojqxgzm","slide":5,"bbox":[657,238,174,198]}
+{"kind":"textbox","id":"sh/wnapobih","slide":5,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[675,256,40,20]}
+{"kind":"textbox","id":"sh/vm18v6hw","slide":5,"text":"ACCESSORIES","textPreview":"ACCESSORIES","textChars":11,"textLines":1,"bbox":[675,300,138,28]}
+{"kind":"textbox","id":"sh/uls7m10b","slide":5,"text":"配件能力 + 分类入口","textPreview":"配件能力 + 分类入口","textChars":11,"textLines":1,"bbox":[675,348,138,54]}
+{"kind":"textbox","id":"sh/9kj6twzq","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[833,320,24,30]}
+{"kind":"shape","id":"sh/8japkri5","slide":5,"bbox":[858,238,174,198]}
+{"kind":"textbox","id":"sh/7ihormhk","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[876,256,40,20]}
+{"kind":"textbox","id":"sh/mh87ih0z","slide":5,"text":"REVIEWS","textPreview":"REVIEWS","textChars":7,"textLines":1,"bbox":[876,300,138,28]}
+{"kind":"textbox","id":"sh/lwz6pwze","slide":5,"text":"专业用户评价","textPreview":"专业用户评价","textChars":6,"textLines":1,"bbox":[876,348,138,54]}
+{"kind":"textbox","id":"sh/kvqpgri9","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[1034,320,24,30]}
+{"kind":"shape","id":"sh/a1onqxgr","slide":5,"bbox":[1059,238,174,198]}
+{"kind":"textbox","id":"sh/b2x4zixc","slide":5,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1077,256,40,20]}
+{"kind":"textbox","id":"sh/cn65snyx","slide":5,"text":"FOOTER","textPreview":"FOOTER","textChars":6,"textLines":1,"bbox":[1077,300,138,28]}
+{"kind":"textbox","id":"sh/xofm1sfi","slide":5,"text":"导航 · 订阅 · 法律","textPreview":"导航 · 订阅 · 法律","textChars":12,"textLines":1,"bbox":[1077,348,138,54]}
+{"kind":"textbox","id":"sh/nyd4vixg","slide":5,"text":"HOME = OVERVIEW","textPreview":"HOME = OVERVIEW","textChars":15,"textLines":1,"bbox":[64,500,400,42]}
+{"kind":"textbox","id":"sh/oz65ony1","slide":5,"text":"更少文字 · 更清晰层级 · 更明确跳转","textPreview":"更少文字 · 更清晰层级 · 更明确跳转","textChars":20,"textLines":1,"bbox":[64,548,500,32]}
+{"kind":"textbox","id":"sh/p0fmxsf6","slide":5,"text":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textPreview":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textChars":40,"textLines":1,"bbox":[64,685,500,18]}
+{"kind":"textbox","id":"sh/et43idgj","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,685,44,18]}
+{"kind":"image","id":"im/lwfulw72","slide":5,"name":"","alt":"st100-main-current.jpg","bbox":[835,466,340,164]}
+{"kind":"notes","id":"nt/oh55je","slide":5,"text":"[Sources]\n- Local project source: app/page.tsx\n- Local project asset: public/images/products/amazon-current/st100-main-current.jpg\n[/Sources]"}
+{"kind":"slide","id":"sl/4130mt","slide":6,"title":"B2B CONVERSION JOURNEY","textShapes":22}
+{"kind":"textbox","id":"sh/1w7mtoz6","slide":6,"text":"B2B CONVERSION JOURNEY","textPreview":"B2B CONVERSION JOURNEY","textChars":22,"textLines":1,"bbox":[64,42,420,22]}
+{"kind":"textbox","id":"sh/u9g3y90f","slide":6,"text":"从发现产品到建立合作","textPreview":"从发现产品到建立合作","textChars":10,"textLines":1,"bbox":[64,70,1100,54]}
+{"kind":"textbox","id":"sh/fup4reh0","slide":6,"text":"页面之间形成明确的采购与合作路径，而不是传统电商结账流程。","textPreview":"页面之间形成明确的采购与合作路径，而不是传统电商结账流程。","textChars":29,"textLines":1,"bbox":[64,128,1080,44]}
+{"kind":"shape","id":"sh/ozil4jih","slide":6,"bbox":[64,180,1152,2]}
+{"kind":"shape","id":"sh/p0rmxoz2","slide":6,"bbox":[80,245,240,160]}
+{"kind":"textbox","id":"sh/2x032t0r","slide":6,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[102,265,40,20]}
+{"kind":"textbox","id":"sh/3y94vyhc","slide":6,"text":"DISCOVER","textPreview":"DISCOVER","textChars":8,"textLines":1,"bbox":[102,305,196,28]}
+{"kind":"textbox","id":"sh/c3il83it","slide":6,"text":"Home · Shop · Indications","textPreview":"Home · Shop · Indications","textChars":25,"textLines":1,"bbox":[102,347,196,42]}
+{"kind":"textbox","id":"sh/d4rm18ze","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[328,300,38,38]}
+{"kind":"shape","id":"sh/do7a90ji","slide":6,"bbox":[375,245,240,160]}
+{"kind":"textbox","id":"sh/snytgvix","slide":6,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[397,265,40,20]}
+{"kind":"textbox","id":"sh/rmps7q1c","slide":6,"text":"EVALUATE","textPreview":"EVALUATE","textChars":8,"textLines":1,"bbox":[397,305,196,28]}
+{"kind":"textbox","id":"sh/qlwbel0r","slide":6,"text":"Product Detail · Applications · FAQ","textPreview":"Product Detail · Applications · FAQ","textChars":35,"textLines":1,"bbox":[397,347,196,42]}
+{"kind":"textbox","id":"sh/1s7ad0je","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[623,300,38,38]}
+{"kind":"shape","id":"sh/0rytkfit","slide":6,"bbox":[670,245,240,160]}
+{"kind":"textbox","id":"sh/fqpsba18","slide":6,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[692,265,40,20]}
+{"kind":"textbox","id":"sh/epgbi503","slide":6,"text":"TRUST","textPreview":"TRUST","textChars":5,"textLines":1,"bbox":[692,305,196,28]}
+{"kind":"textbox","id":"sh/hwna1gja","slide":6,"text":"Compliance · About · Reviews","textPreview":"Compliance · About · Reviews","textChars":28,"textLines":1,"bbox":[692,347,196,42]}
+{"kind":"textbox","id":"sh/gve98bip","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[918,300,38,38]}
+{"kind":"shape","id":"sh/8zitobql","slide":6,"bbox":[965,245,240,160]}
+{"kind":"textbox","id":"sh/90rahgr6","slide":6,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[987,265,40,20]}
+{"kind":"textbox","id":"sh/mxgbm18f","slide":6,"text":"CONVERT","textPreview":"CONVERT","textChars":7,"textLines":1,"bbox":[987,305,196,28]}
+{"kind":"textbox","id":"sh/7ypsf690","slide":6,"text":"Contact · Request Quote","textPreview":"Contact · Request Quote","textChars":23,"textLines":1,"bbox":[987,347,196,42]}
+{"kind":"shape","id":"sh/w3itsvqh","slide":6,"bbox":[190,474,900,92]}
+{"kind":"textbox","id":"sh/h4ral0r2","slide":6,"text":"核心转化原则","textPreview":"核心转化原则","textChars":6,"textLines":1,"bbox":[220,494,170,24]}
+{"kind":"textbox","id":"sh/u10bql8r","slide":6,"text":"不展示价格  ·  不设置购物车  ·  用专业信息降低询盘门槛  ·  统一导向 Contact / Request Quote","textPreview":"不展示价格  ·  不设置购物车  ·  用专业信息降低询盘门槛  ·  统一导向 Contact / Request Quote","textChars":65,"textLines":1,"bbox":[390,493,660,42]}
+{"kind":"textbox","id":"sh/v29sjq9w","slide":6,"text":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textPreview":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textChars":40,"textLines":1,"bbox":[64,685,500,18]}
+{"kind":"textbox","id":"sh/472twvqt","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,685,44,18]}
+{"kind":"notes","id":"nt/4130mt","slide":6,"text":"[Sources]\n- Local project navigation and CTA links in app/ pages and components\n[/Sources]"}
+{"kind":"slide","id":"sl/puuhz7","slide":7,"title":"CLINICAL CONTENT ARCHITECTURE","textShapes":17}
+{"kind":"textbox","id":"sh/xo7ydwn6","slide":7,"text":"CLINICAL CONTENT ARCHITECTURE","textPreview":"CLINICAL CONTENT ARCHITECTURE","textChars":29,"textLines":1,"bbox":[64,42,420,22]}
+{"kind":"textbox","id":"sh/a1gf214f","slide":7,"text":"Indications：可扩展的临床内容中心","textPreview":"Indications：可扩展的临床内容中心","textChars":22,"textLines":1,"bbox":[64,70,1100,54]}
+{"kind":"textbox","id":"sh/vmpgb650","slide":7,"text":"总入口负责浏览，详情页使用统一模板，支持未来 SEO / AEO / GEO 扩展。","textPreview":"总入口负责浏览，详情页使用统一模板，支持未来 SEO / AEO / GEO 扩展。","textChars":42,"textLines":1,"bbox":[64,128,1080,44]}
+{"kind":"shape","id":"sh/kryh8bmx","slide":7,"bbox":[64,180,1152,2]}
+{"kind":"textbox","id":"sh/ipgz614r","slide":7,"text":"/indications","textPreview":"/indications","textChars":12,"textLines":1,"bbox":[480,220,240,34]}
+{"kind":"shape","id":"sh/jqpgf65c","slide":7,"bbox":[795,218,130,30]}
+{"kind":"textbox","id":"sh/svihcvmt","slide":7,"text":"HUB PAGE","textPreview":"HUB PAGE","textChars":8,"textLines":1,"bbox":[795,223,130,20]}
+{"kind":"shape","id":"sh/twrylgne","slide":7,"bbox":[480,278,700,58]}
+{"kind":"textbox","id":"sh/tcnadknm","slide":7,"text":"Common Indications","textPreview":"Common Indications","textChars":18,"textLines":1,"bbox":[498,288,245,24]}
+{"kind":"textbox","id":"sh/8be94f6h","slide":7,"text":"6 个常见适应症入口","textPreview":"6 个常见适应症入口","textChars":10,"textLines":1,"bbox":[760,288,395,30]}
+{"kind":"shape","id":"sh/7q5sbapw","slide":7,"bbox":[480,356,700,58]}
+{"kind":"textbox","id":"sh/6pwr25ob","slide":7,"text":"Professional Applications","textPreview":"Professional Applications","textChars":25,"textLines":1,"bbox":[498,366,245,24]}
+{"kind":"textbox","id":"sh/hg7ah4ny","slide":7,"text":"身体区域切换 + 应用详情","textPreview":"身体区域切换 + 应用详情","textChars":13,"textLines":1,"bbox":[760,366,395,30]}
+{"kind":"shape","id":"sh/gfy98z6d","slide":7,"bbox":[480,434,700,58]}
+{"kind":"textbox","id":"sh/vepsfu5s","slide":7,"text":"Explore by Body Area","textPreview":"Explore by Body Area","textChars":20,"textLines":1,"bbox":[498,444,245,24]}
+{"kind":"textbox","id":"sh/udgr6po7","slide":7,"text":"按肩、肘、背髋、膝、足踝、肌筋膜浏览","textPreview":"按肩、肘、背髋、膝、足踝、肌筋膜浏览","textChars":18,"textLines":1,"bbox":[760,444,395,30]}
+{"kind":"shape","id":"sh/xk3a507u","slide":7,"bbox":[480,512,700,58]}
+{"kind":"textbox","id":"sh/wju9wv69","slide":7,"text":"Dynamic Detail Template","textPreview":"Dynamic Detail Template","textChars":23,"textLines":1,"bbox":[498,522,245,24]}
+{"kind":"textbox","id":"sh/o3y9cve5","slide":7,"text":"Hero → Overview → Application → Benefits → FAQ → CTA","textPreview":"Hero → Overview → Application → Benefits → FAQ → CTA","textChars":52,"textLines":1,"bbox":[760,522,395,30]}
+{"kind":"textbox","id":"sh/p47al0fa","slide":7,"text":"CURRENT DETAIL SLUGS","textPreview":"CURRENT DETAIL SLUGS","textChars":20,"textLines":1,"bbox":[480,602,240,20]}
+{"kind":"textbox","id":"sh/21gra5wz","slide":7,"text":"plantar-fasciitis · tennis-elbow · achilles-tendinopathy · tendinopathy · calcific-tendinitis · myofascial-trigger-points","textPreview":"plantar-fasciitis · tennis-elbow · achilles-tendinopathy · tendinopathy · calcific-tendinitis · myofascial-trigger-points","textChars":121,"textLines":1,"bbox":[480,628,700,34]}
+{"kind":"textbox","id":"sh/n2psjqxk","slide":7,"text":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textPreview":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textChars":40,"textLines":1,"bbox":[64,685,500,18]}
+{"kind":"textbox","id":"sh/critgfe1","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,685,44,18]}
+{"kind":"image","id":"im/gvqt8rap","slide":7,"name":"","alt":"body-area-application-figure.png","bbox":[64,220,360,400]}
+{"kind":"notes","id":"nt/puuhz7","slide":7,"text":"[Sources]\n- Local project source: app/indications/\n- Local project asset: public/images/indications/body-area-application-figure.png\n[/Sources]"}
+{"kind":"slide","id":"sl/n9evsp","slide":8,"title":"TECHNICAL ARCHITECTURE","textShapes":22}
+{"kind":"textbox","id":"sh/lgzi9wbi","slide":8,"text":"TECHNICAL ARCHITECTURE","textPreview":"TECHNICAL ARCHITECTURE","textChars":22,"textLines":1,"bbox":[64,42,420,22]}
+{"kind":"textbox","id":"sh/yt8jyhs7","slide":8,"text":"React app-directory 项目结构","textPreview":"React app-directory 项目结构","textChars":24,"textLines":1,"bbox":[64,70,1100,54]}
+{"kind":"textbox","id":"sh/zeh07mts","slide":8,"text":"页面路由、共享组件、页面组件、样式与图片资源分层维护。","textPreview":"页面路由、共享组件、页面组件、样式与图片资源分层维护。","textChars":27,"textLines":1,"bbox":[64,128,1080,44]}
+{"kind":"shape","id":"sh/8ja14ba9","slide":8,"bbox":[64,180,1152,2]}
+{"kind":"shape","id":"sh/9kjidwbu","slide":8,"bbox":[42,228,220,294]}
+{"kind":"shape","id":"sh/mh8j21s3","slide":8,"bbox":[42,228,220,8]}
+{"kind":"textbox","id":"sh/nih0b6to","slide":8,"text":"ROUTES","textPreview":"ROUTES","textChars":6,"textLines":1,"bbox":[60,258,184,22]}
+{"kind":"textbox","id":"sh/wna18ba5","slide":8,"text":"app/**/page.tsx","textPreview":"app/**/page.tsx","textChars":15,"textLines":1,"bbox":[60,310,184,70]}
+{"kind":"shape","id":"sh/xojihgbq","slide":8,"bbox":[60,400,184,2]}
+{"kind":"textbox","id":"sh/5onudwru","slide":8,"text":"页面 URL 与 metadata","textPreview":"页面 URL 与 metadata","textChars":17,"textLines":1,"bbox":[60,426,184,58]}
+{"kind":"shape","id":"sh/knut4ra9","slide":8,"bbox":[286,228,220,294]}
+{"kind":"shape","id":"sh/jmlcbm94","slide":8,"bbox":[286,228,220,8]}
+{"kind":"textbox","id":"sh/ilcb2hsj","slide":8,"text":"SHARED UI","textPreview":"SHARED UI","textChars":9,"textLines":1,"bbox":[304,258,184,22]}
+{"kind":"textbox","id":"sh/tsnuhwr6","slide":8,"text":"app/components.tsx","textPreview":"app/components.tsx","textChars":18,"textLines":1,"bbox":[304,310,184,70]}
+{"kind":"shape","id":"sh/sred8ral","slide":8,"bbox":[304,400,184,2]}
+{"kind":"textbox","id":"sh/7q5cf690","slide":8,"text":"Header · Footer · common UI","textPreview":"Header · Footer · common UI","textChars":27,"textLines":1,"bbox":[304,426,184,58]}
+{"kind":"shape","id":"sh/6pwb61sf","slide":8,"bbox":[530,228,220,294]}
+{"kind":"shape","id":"sh/9wju5crm","slide":8,"bbox":[530,228,220,8]}
+{"kind":"textbox","id":"sh/8vatw7ah","slide":8,"text":"PAGE COMPONENTS","textPreview":"PAGE COMPONENTS","textChars":15,"textLines":1,"bbox":[548,258,184,22]}
+{"kind":"textbox","id":"sh/0ryl8bm9","slide":8,"text":"app/home · app/products\napp/indications","textPreview":"app/home · app/products | app/indications","textChars":39,"textLines":2,"bbox":[548,310,184,70]}
+{"kind":"shape","id":"sh/lc7m1g3u","slide":8,"bbox":[548,400,184,2]}
+{"kind":"textbox","id":"sh/ypg3614j","slide":8,"text":"交互与页面专属模块","textPreview":"交互与页面专属模块","textChars":9,"textLines":1,"bbox":[548,426,184,58]}
+{"kind":"shape","id":"sh/zqpkz65o","slide":8,"bbox":[774,228,220,294]}
+{"kind":"shape","id":"sh/8filcbml","slide":8,"bbox":[774,228,220,8]}
+{"kind":"textbox","id":"sh/9grm5g36","slide":8,"text":"STYLES","textPreview":"STYLES","textChars":6,"textLines":1,"bbox":[792,258,184,22]}
+{"kind":"textbox","id":"sh/mdg3a14f","slide":8,"text":"app/globals.css\npage-scoped styles","textPreview":"app/globals.css | page-scoped styles","textChars":34,"textLines":2,"bbox":[792,310,184,70]}
+{"kind":"shape","id":"sh/nep436l0","slide":8,"bbox":[792,400,184,2]}
+{"kind":"textbox","id":"sh/wjilgvmh","slide":8,"text":"全局基础 + 页面隔离","textPreview":"全局基础 + 页面隔离","textChars":11,"textLines":1,"bbox":[792,426,184,58]}
+{"kind":"shape","id":"sh/xkrm9032","slide":8,"bbox":[1018,228,220,294]}
+{"kind":"shape","id":"sh/retozu54","slide":8,"bbox":[1018,228,220,8]}
+{"kind":"textbox","id":"sh/6dkn6poj","slide":8,"text":"ASSETS","textPreview":"ASSETS","textChars":6,"textLines":1,"bbox":[1036,258,184,22]}
+{"kind":"textbox","id":"sh/tgv61kna","slide":8,"text":"public/images/**","textPreview":"public/images/**","textChars":16,"textLines":1,"bbox":[1036,310,184,70]}
+{"kind":"shape","id":"sh/sfmp8z6p","slide":8,"bbox":[1036,400,184,2]}
+{"kind":"textbox","id":"sh/jatova58","slide":8,"text":"产品、品牌、适应症图片","textPreview":"产品、品牌、适应症图片","textChars":11,"textLines":1,"bbox":[1036,426,184,58]}
+{"kind":"textbox","id":"sh/i9kn25on","slide":8,"text":"STACK","textPreview":"STACK","textChars":5,"textLines":1,"bbox":[64,578,80,20]}
+{"kind":"textbox","id":"sh/5cb6xkne","slide":8,"text":"React 19 · Vinext · Vite 8 · Tailwind 4 · TypeScript · Cloudflare-ready","textPreview":"React 19 · Vinext · Vite 8 · Tailwind 4 · TypeScript · Cloudflare-ready","textChars":71,"textLines":1,"bbox":[150,575,920,28]}
+{"kind":"textbox","id":"sh/4b254f6t","slide":8,"text":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textPreview":"SHOCKIS MEDICAL  ·  WEBSITE ARCHITECTURE","textChars":40,"textLines":1,"bbox":[64,685,500,18]}
+{"kind":"textbox","id":"sh/36xo7e5c","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,685,44,18]}
+{"kind":"notes","id":"nt/n9evsp","slide":8,"text":"[Sources]\n- Local project files: package.json, app/, public/, tsconfig.json\n[/Sources]"}
+{"kind":"slide","id":"sl/mx3cqv","slide":9,"title":"MAINTENANCE MAP","textShapes":24}
+{"kind":"textbox","id":"sh/m50fypgj","slide":9,"text":"MAINTENANCE MAP","textPreview":"MAINTENANCE MAP","textChars":15,"textLines":1,"bbox":[64,48,260,22]}
+{"kind":"textbox","id":"sh/9sre9kza","slide":9,"text":"网站后续维护从哪里开始","textPreview":"网站后续维护从哪里开始","textChars":11,"textLines":1,"bbox":[64,82,650,50]}
+{"kind":"textbox","id":"sh/orix0zyp","slide":9,"text":"内部维护清单 + 下一阶段建议","textPreview":"内部维护清单 + 下一阶段建议","textChars":15,"textLines":1,"bbox":[64,140,500,28]}
+{"kind":"shape","id":"sh/bu9wbuxg","slide":9,"bbox":[64,220,540,106]}
+{"kind":"textbox","id":"sh/at0f2pgv","slide":9,"text":"页面内容","textPreview":"页面内容","textChars":4,"textLines":1,"bbox":[84,238,140,24]}
+{"kind":"textbox","id":"sh/xwred4f6","slide":9,"text":"app/[route]/page.tsx","textPreview":"app/[route]/page.tsx","textChars":20,"textLines":1,"bbox":[234,238,340,24]}
+{"kind":"textbox","id":"sh/wvix4zyl","slide":9,"text":"只改对应页面，避免影响其他 route","textPreview":"只改对应页面，避免影响其他 route","textChars":19,"textLines":1,"bbox":[84,276,490,32]}
+{"kind":"shape","id":"sh/jytwfexc","slide":9,"bbox":[650,220,540,106]}
+{"kind":"textbox","id":"sh/yxkf69gr","slide":9,"text":"全站导航","textPreview":"全站导航","textChars":4,"textLines":1,"bbox":[670,238,140,24]}
+{"kind":"textbox","id":"sh/czid0nyl","slide":9,"text":"app/components.tsx","textPreview":"app/components.tsx","textChars":18,"textLines":1,"bbox":[820,238,340,24]}
+{"kind":"textbox","id":"sh/d0retsz6","slide":9,"text":"Header / Footer 为共享组件，修改前先评估全站影响","textPreview":"Header / Footer 为共享组件，修改前先评估全站影响","textChars":32,"textLines":1,"bbox":[670,276,490,32]}
+{"kind":"shape","id":"sh/qx0vyxgv","slide":9,"bbox":[64,352,540,106]}
+{"kind":"textbox","id":"sh/ry9wr2h0","slide":9,"text":"首页模块","textPreview":"首页模块","textChars":4,"textLines":1,"bbox":[84,370,140,24]}
+{"kind":"textbox","id":"sh/0n2d47yx","slide":9,"text":"app/page.tsx + app/home/","textPreview":"app/page.tsx + app/home/","textChars":24,"textLines":1,"bbox":[234,370,340,24]}
+{"kind":"textbox","id":"sh/1obexczi","slide":9,"text":"Hero、Product、Accessories、Reviews 分区维护","textPreview":"Hero、Product、Accessories、Reviews 分区维护","textChars":37,"textLines":1,"bbox":[84,408,490,32]}
+{"kind":"shape","id":"sh/el0v2xgr","slide":9,"bbox":[650,352,540,106]}
+{"kind":"textbox","id":"sh/zm9wv2hc","slide":9,"text":"产品画廊","textPreview":"产品画廊","textChars":4,"textLines":1,"bbox":[670,370,140,24]}
+{"kind":"textbox","id":"sh/8r2d87yt","slide":9,"text":"app/products/ProductImageGallery.tsx","textPreview":"app/products/ProductImageGallery.tsx","textChars":36,"textLines":1,"bbox":[820,370,340,24]}
+{"kind":"textbox","id":"sh/9sbe1cze","slide":9,"text":"图片顺序与资源路径保持一致","textPreview":"图片顺序与资源路径保持一致","textChars":13,"textLines":1,"bbox":[670,408,490,32]}
+{"kind":"shape","id":"sh/xw7m5sn6","slide":9,"bbox":[64,484,540,106]}
+{"kind":"textbox","id":"sh/wve5wnm1","slide":9,"text":"临床内容","textPreview":"临床内容","textChars":4,"textLines":1,"bbox":[84,502,140,24]}
+{"kind":"textbox","id":"sh/bu543i5g","slide":9,"text":"app/indications/data.ts + [slug]","textPreview":"app/indications/data.ts + [slug]","textChars":32,"textLines":1,"bbox":[234,502,340,24]}
+{"kind":"textbox","id":"sh/a9w3ud4v","slide":9,"text":"统一数据与模板，避免重复页面","textPreview":"统一数据与模板，避免重复页面","textChars":14,"textLines":1,"bbox":[84,540,490,32]}
+{"kind":"shape","id":"sh/507m9sni","slide":9,"bbox":[650,484,540,106]}
+{"kind":"textbox","id":"sh/kzy50nmx","slide":9,"text":"图片资产","textPreview":"图片资产","textChars":4,"textLines":1,"bbox":[670,502,140,24]}
+{"kind":"textbox","id":"sh/jyp47i5c","slide":9,"text":"public/images/","textPreview":"public/images/","textChars":14,"textLines":1,"bbox":[820,502,340,24]}
+{"kind":"textbox","id":"sh/ixgnyd4r","slide":9,"text":"保留清晰文件名、alt 与稳定路径","textPreview":"保留清晰文件名、alt 与稳定路径","textChars":17,"textLines":1,"bbox":[670,540,490,32]}
+{"kind":"textbox","id":"sh/143mx8ne","slide":9,"text":"NEXT","textPreview":"NEXT","textChars":4,"textLines":1,"bbox":[64,640,80,20]}
+{"kind":"textbox","id":"sh/03ulo3mt","slide":9,"text":"Visual assets → Brand content → SEO content → Official launch","textPreview":"Visual assets → Brand content → SEO content → Official launch","textChars":61,"textLines":1,"bbox":[150,635,900,30]}
+{"kind":"textbox","id":"sh/q9sjy9kb","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,685,44,18]}
+{"kind":"notes","id":"nt/mx3cqv","slide":9,"text":"[Sources]\n- Local project source map under app/ and public/\n[/Sources]"}

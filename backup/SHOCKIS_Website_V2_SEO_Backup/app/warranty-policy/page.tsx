@@ -1,0 +1,2 @@
+import { LegalDocument } from "../legal/LegalDocument";
+export default function WarrantyPolicy(){return <LegalDocument eyebrow="SUPPORT" title="Warranty Policy" introduction="This page is reserved for SHOCKIS Medical warranty information." sections={[{title:"Policy Status",content:"Warranty period, covered components, exclusions and service procedure: TODO — confirm before publication."},{title:"Contact",content:"For product-specific warranty documentation, contact sales@shockis.com."}]}/>;}

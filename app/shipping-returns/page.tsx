@@ -1,0 +1,2 @@
+import { LegalDocument } from "../legal/LegalDocument";
+export default function ShippingReturns(){return <LegalDocument eyebrow="SUPPORT" title="Shipping & Returns" introduction="This page is reserved for SHOCKIS Medical shipping and return information." sections={[{title:"Policy Status",content:"Shipping regions, delivery terms, return authorization requirements and applicable time limits: TODO — confirm before publication."},{title:"Contact",content:"For current order-specific information, contact sales@shockis.com."}]}/>;}

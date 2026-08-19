@@ -1,0 +1,22 @@
+import Link from "next/link"; import {Header,Footer,Arrow,ProductImage} from "./components";
+import { CustomerTestimonials } from "./home/CustomerTestimonials";
+import { HomepageVisualRefresh } from "./home/HomepageVisualRefresh";
+const accessories=[
+  ["Applicator Heads","/images/products/st100-applicators.jpg","SHOCKIS shockwave therapy applicator heads"],
+  ["Handpiece","/images/products/st100-handpiece.jpg","SHOCKIS shockwave therapy handpiece"],
+  ["Cables","/images/products/amazon-current/st100-package-contents.jpg","SHOCKIS system cables and package components"],
+  ["Cases","/images/products/amazon-current/st100-main-current.jpg","SHOCKIS system transport and storage accessories"],
+  ["Custom Accessories","/images/products/amazon-current/st100-seven-heads.jpg","SHOCKIS custom accessory options"],
+];
+export default function Home(){return <><Header/><main className="home-visual-refresh">
+  <section className="home-hero hero-light"><div className="hero-background" aria-hidden="true"/><div className="wrap home-hero-grid"><div className="hero-copy"><p className="kicker">GLOBAL MEDICAL DEVICE MANUFACTURER</p><h1>Focused technology.<br/><em>Reliable therapy.</em></h1><p>Professional shockwave therapy systems<br/>for healthcare providers, distributors<br/>and OEM partners worldwide.</p><div className="hero-actions"><Link className="solid-btn" href="/products">Explore the system <Arrow/></Link><Link className="text-btn" href="/contact">Become a partner <Arrow/></Link></div><div className="hero-meta"><span>Built for</span><b>Medical distributors</b><b>Therapy providers</b><b>OEM partners</b></div></div><span className="hero-model">RADIAL SHOCKWAVE SYSTEM / ST100</span></div></section>
+  <section className="trust-strip"><div className="wrap"><span>COMPLIANCE & PARTNERSHIP CAPABILITIES</span><div><b>FDA</b><small>U.S. market pathway</small></div><div><b>FSA / HSA</b><small>Multi-market support</small></div><div><b>OEM / ODM</b><small>Flexible cooperation</small></div></div></section>
+  <section className="section wrap home-product-overview"><div className="section-heading"><div><p className="kicker">CORE PRODUCT</p><h2>Engineered for<br/>Professional Use.</h2></div></div><div className="product-feature"><div className="feature-image"><ProductImage/><span>PRODUCT SYSTEM / 01</span></div><div className="feature-copy"><p className="kicker">SHOCKWAVE THERAPY SYSTEM</p><h3>Clear operation.<br/>Consistent output.</h3><ul><li><span>01</span><div><b>Dual operation</b></div></li><li><span>02</span><div><b>Ergonomic handpiece</b></div></li><li><span>03</span><div><b>Seven applicator heads</b></div></li></ul><Link className="text-btn product-detail-link" href="/products">View Product Details <Arrow/></Link></div></div></section>
+  <section className="home-accessories"><div className="wrap"><div className="home-accessories-heading"><p className="kicker">ACCESSORIES</p><h2>Custom Accessories. Built to Match.</h2><p>Standard and custom accessories directly from the manufacturer.</p></div><div className="home-accessories-grid">{accessories.map(([name,image,alt])=><Link href="/accessories" className="home-accessory-item" key={name}><span><img src={image} alt={alt}/></span><b>{name}</b></Link>)}</div><div className="home-accessories-cta"><Link className="text-btn" href="/accessories">View All Accessories <Arrow/></Link></div></div></section>
+  {false && <>
+    <section className="section wrap"><div className="section-heading"><div><p className="kicker">QUALITY & MANUFACTURING</p><h2>From design intent<br/>to released product.</h2></div><div><p>Documented controls connect product requirements, supplier quality, assembly, inspection and final release.</p><Link className="text-btn" href="/quality">Explore quality assurance <Arrow/></Link></div></div><div className="process"><div><span>01</span><b>Design control</b></div><div><span>02</span><b>Supplier quality</b></div><div><span>03</span><b>Controlled assembly</b></div><div><span>04</span><b>Inspection & release</b></div></div></section>
+    <section className="partner-cta"><div className="wrap"><div><p className="kicker light">GLOBAL PARTNERSHIP</p><h2>Bring a focused therapy<br/>solution to your market.</h2></div><div><p>We support distributor evaluation, OEM discussions and hospital procurement with clear product, quality and commercial documentation.</p><Link className="solid-btn white" href="/contact">Talk to our team <Arrow/></Link></div></div></section>
+  </>}
+  <CustomerTestimonials/>
+  <HomepageVisualRefresh/>
+</main><Footer/></>}
