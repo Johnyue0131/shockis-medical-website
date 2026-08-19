@@ -1,2 +1,0 @@
-import { LegalDocument } from "../legal/LegalDocument";
-export default function RefundPolicy(){return <LegalDocument eyebrow="SUPPORT" title="Refund Policy" introduction="This page is reserved for SHOCKIS Medical refund information." sections={[{title:"Policy Status",content:"Refund eligibility, inspection requirements, processing method and applicable time limits: TODO — confirm before publication."},{title:"Contact",content:"For current order-specific information, contact sales@shockis.com."}]}/>;}

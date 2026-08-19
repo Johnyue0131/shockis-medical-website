@@ -12,6 +12,47 @@ export type IndicationDetail = {
   faqs: Array<[string, string]>;
 };
 
+export const bodyRegions = [
+  {
+    number: "01",
+    name: "Shoulder",
+    applications: [
+      { name: "Rotator cuff related conditions" },
+      { name: "Shoulder rehabilitation" },
+    ],
+  },
+  {
+    number: "02",
+    name: "Elbow",
+    applications: [
+      { name: "Tennis elbow" },
+      { name: "Elbow rehabilitation" },
+    ],
+  },
+  {
+    number: "03",
+    name: "Hip",
+    applications: [
+      { name: "Hip soft tissue conditions" },
+    ],
+  },
+  {
+    number: "04",
+    name: "Knee",
+    applications: [
+      { name: "Knee rehabilitation" },
+    ],
+  },
+  {
+    number: "05",
+    name: "Foot & Ankle",
+    applications: [
+      { name: "Plantar fasciitis" },
+      { name: "Achilles tendon related conditions" },
+    ],
+  },
+];
+
 export const commonIndications: IndicationDetail[] = [
   {
     slug: "plantar-fasciitis",

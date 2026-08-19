@@ -4,7 +4,7 @@ import { Arrow, Footer, Header } from "../../components";
 import { IndicationsStyles } from "../components/IndicationsStyles";
 import { getIndicationBySlug, indicationDetails } from "../data";
 
-export function generateStaticParams() {
+export function generateStaticParams(): { slug: string }[] {
   return indicationDetails.map(({ slug }) => ({ slug }));
 }
 
@@ -14,8 +14,14 @@ const treatmentBenefits = [
   ["03", "Professional Clinical Application", "Trained healthcare professionals can integrate the modality into a documented clinical workflow."],
 ];
 
-export default function IndicationDetailPage({ params }: { params: { slug: string } }) {
-  const indication = getIndicationBySlug(params.slug);
+export default async function IndicationDetailPage({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+
+  const indication = getIndicationBySlug(slug);
   if (!indication) notFound();
 
   return (
