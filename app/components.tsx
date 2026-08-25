@@ -81,8 +81,8 @@ export function Footer() {
           <p>Professional shockwave therapy systems and accessories.</p>
           <a href="mailto:sales@shockis.com">sales@shockis.com</a>
           <div className="footer-socials" aria-label="Social media">
-            <a href="#" aria-label="SHOCKIS Medical on YouTube">YouTube</a>
-            <a href="#" aria-label="SHOCKIS Medical social media">Social Media</a>
+          <a href="/contact" aria-label="SHOCKIS Medical on YouTube">YouTube</a>
+          <a href="/contact" aria-label="SHOCKIS Medical social media">Social Media</a>
           </div>
         </div>
         <div className="footer-links">

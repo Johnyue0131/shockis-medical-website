@@ -7,11 +7,21 @@ const articleTitles: Record<string, string> = {
   "treatment-applications": "Treatment Applications",
 };
 
-export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+
+  const { slug } = await params;
+
   return {
-    title: `${articleTitles[params.slug] ?? "Knowledge Base Article"} | SHOCKIS Medical`,
-    description: "SHOCKIS professional shockwave therapy knowledge base article placeholder.",
-    alternates: { canonical: `/resources/knowledge-base/${params.slug}` },
+    title: `${articleTitles[slug] ?? "Knowledge Base Article"} | SHOCKIS Medical`,
+    description:
+      "SHOCKIS professional shockwave therapy knowledge base article placeholder.",
+    alternates: {
+      canonical: `/resources/knowledge-base/${slug}`,
+    },
   };
 }
 
